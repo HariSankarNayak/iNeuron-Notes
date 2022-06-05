@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>iNeuron Scrapper</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='/css/scrapper_style.css') }}">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+       <style>
+         @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+      </style>
+   </head>
+   <body>
+  <div class="nav">
+      <div class="nav-menu flex-row">
+         <div class="nav-brand">
+             <a href="/" class="text-gray">Ineuron Scrapper</a>
+         </div>
+
+         <div>
+            <ul class="nav-items">
+               <li class="nav-link">
+                  <span><a type="button" href="/" class="backbtn">Back</a></span>
+                  <a href="#">Category :</a>
+               </li>
+                <li class="nav-link">
+                  <a href="#">{{course_title}}</a>
+               </li>
+            </ul>
+         </div>
+         <div class="social text-gray">
+            <a href="https://www.facebook.com/ineuronai"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/iNeuronAi"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/channel/UCb1GdqUqArXMQ3RS86lqqOw"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/company/ineuron-ai/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+         </div>
+      </div>
+   </div>
+         {% for course in course_details %}
+      <div class="container">
+         <div class="accordion">
+            <div class="accordion-tab">
+               <input type="checkbox" class ="accordion-toggle" name="toggle" id="{{course['accordionExampleID']}}">
+               <label for="{{course['accordionExampleID']}}" class="accordion__label">{{course['Course_Name']}}  <span class="label label-warning" style="color: #000;background-color: #ffc107;border-color: #ffc107;">{{course['Fees']}}</span></label>
+               <div class="accordion-content">
+                  <p>{{course['Course Description']}}</p>
+                  <div class="row">
+                     <div class="col-sm-4">
+                        <table class="table">
+                           <tr>
+                              <td style="width:25%">
+                                 <p><span class="label label-danger" style="background-color: #dc3545;">Mentors </span></p>
+                              </td>
+                              <td>
+                                 <table class="table">
+                                     {% for mentor in course['Mentors']%}
+                                    <tr>
+                                       <p style="padding-left:0;;"><span class="glyphicon glyphicon-star"><b>{{mentor.name}}</b></span></p>
+                                           {% endfor %}
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="col-sm-4">
+                        <table class="table">
+                          <tr>
+                              <td>
+                                 <p><span class="label label-danger" style="background-color: #dc3545;">Requirements </span></p>
+                              </td>
+                              <td>
+                                 <table class="table">
+                                    {% for requirement in course['Requirements']%}
+                                    <tr>
+                                       <p><span class="glyphicon glyphicon-star">{{requirement}}</span></p>
+                                           {% endfor %}
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="col-sm-4">
+                        <table class="table">
+                           <tr>
+                              <td>
+                                 <div class="col-sm-3">
+                                    <p><span class="label label-danger" style="background-color: #dc3545;">Class Timing </span></p>
+                                 </div>
+                                 <div class="col-sm-9">
+                                    <p>{{course['Class Timing']}}</p>
+                                 </div>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <div class="col-sm-3">
+                                    <p><span class="label label-danger" style="background-color: #dc3545;">Class Timing </span></p>
+                                 </div>
+                                 <div class="col-sm-9">
+                                    <p>{{course['Doubt Timing']}}</p>
+                                 </div>
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-sm-4"><button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#{{course['collapse_id']}}" style = "background-color: #0d6efd">Curriculum</button></div>
+                     <div class="col-sm-4"><button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#{{course['modal_id']}}" style = "background-color: #0d6efd" >What You Will Learn</button></div>
+                     <div class="col-sm-4"><button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#{{course['features_id']}}" style = "background-color: #0d6efd">Course Features</button></div>
+                  </div>
+                  <hr>
+                  <!-- Modal Whatt u WIll learn-->
+                  <div class="modal fade" id="{{course['modal_id']}}" role="dialog">
+                     <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">What You Will Learn</h4>
+                           </div>
+                           <div class="modal-body">
+                              <ul class="list-group">
+                                 {% for learn in course['What_you_learn']%}
+                                 <li class="list-group-item list-group-item-info"> <span class="glyphicon glyphicon-flag"></span>{{learn}}</li>
+                                 {% endfor %}
+                              </ul>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Modal Curriculum-->
+                  <div class="modal fade" id="{{course['collapse_id']}}" role="dialog">
+                     <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Curriculum</h4>
+                           </div>
+                           <div class="modal-body">
+                              {% for curr in course['Curriculum']%}
+                              <div class="panel panel-primary">
+                                 <div class="panel-heading">{{curr.heading}}</div>
+                                 <div class="panel-body">
+                                    <ul class="list-group">
+                                       {% for topic in curr.topics %}
+                                       <li class="list-group-item list-group-item-info"><span class="glyphicon glyphicon-calendar"></span>{{topic}}</li>
+                                       {% endfor %}
+                                    </ul>
+                                 </div>
+                              </div>
+                              {% endfor %}
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Modal Curriculum-->
+                  <div class="modal fade" id="{{course['features_id']}}" role="dialog">
+                     <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Course Features</h4>
+                           </div>
+                           <div class="modal-body">
+                              <div class="panel panel-primary">
+                                 <div class="panel-heading">Course Features</div>
+                                 <div class="panel-body">
+                                    <ul class="list-group">
+                                        {% for feature in course['Course Features']%}
+                                       <li class="list-group-item list-group-item-info"> <span class="glyphicon glyphicon-flag"></span>{{feature}}</li>
+                                       {% endfor %}
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      {% endfor%}
+
+
+   </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="{{ url_for('static', filename='css/main.css') }}"
+		/>
+		{% block head %} {% endblock %}
+	</head>
+	<body>
+		<header>
+			<li><a href="/">Home</a></li>
+			<h1 class="header-title">Scrapper for iNeuron Courses</h1>
+			<li><a href="/scrapper">Scrapper</a></li>
+		</header>
+		<main>{% block body %}{% endblock %}</main>
+		<footer>
+			<div>
+				<a href="https://ineuron.ai/" rel="noopener noreferrer" target="_blank">
+					<img
+						class="image-ineuron"
+						src="{{ url_for('static',filename='image/ineuron-logo-white.webp') }}"
+					/>
+				</a>
+			</div>
+			<div class="social-media-container">
+				Developed by: Shivam Panchal
+				<a
+					href="https://github.com/GodWin1100"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
+					<img src="{{ url_for('static',filename='svg/Github.svg') }}" />
+				</a>
+				<a
+					href="https://www.linkedin.com/in/shivam-panchal-godwin1100"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
+					<img src="{{ url_for('static',filename='svg/linkedin.svg') }}" />
+				</a>
+			</div>
+		</footer>
+	</body>
+</html>

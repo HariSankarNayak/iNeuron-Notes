@@ -1,0 +1,264 @@
+:root {
+	--main-color: #233c7b;
+	--main-grey: #6c6b6b;
+	--main-black: #231f20;
+	--main-white: #fffafa;
+
+	--secondary-color: #ec9741;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-size: 1.2rem;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--main-color);
+}
+
+header li {
+	list-style-type: none;
+	margin: 0.5rem 1rem;
+}
+
+header li a {
+	color: var(--main-white);
+}
+
+header li a:hover,
+header li a:focus {
+	color: var(--secondary-color);
+}
+
+.header-title {
+	font-size: 1.8rem;
+	text-shadow: 1px 1px 3px var(--main-black), 1px 1px 1px var(--main-white);
+}
+
+body {
+	background-color: #d2d7e6;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	border-radius: 1rem;
+	flex-grow: 1;
+	position: relative;
+	padding: 1.5rem;
+}
+
+footer {
+	width: 100%;
+	background-color: var(--secondary-color);
+	padding: 0.5rem 1rem;
+	color: var(--main-white);
+	font-weight: bold;
+	text-shadow: 1px 1px 3px var(--main-grey), 1px 1px 2px var(--main-black);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer a {
+	color: var(--main-white);
+}
+
+.image-ineuron {
+	height: 1.9rem;
+}
+
+.social-media-container {
+	display: flex;
+	align-items: center;
+}
+
+.social-media-container a {
+	margin: 0 0.5rem;
+}
+
+.social-media-container a img {
+	padding: 0.1rem;
+	height: 2rem;
+	width: 2rem;
+	filter: invert(1) drop-shadow(1px 2px 2px var(--main-grey));
+}
+
+.social-media-container a:hover img,
+.social-media-container a:focus img {
+	filter: invert(0.8) drop-shadow(1px 2px 2px var(--main-black));
+}
+
+.course-count {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 1.1rem;
+	font-weight: bold;
+	background-color: var(--secondary-color);
+	color: var(--main-white);
+	padding: 0.5rem;
+	border: 1px solid var(--main-white);
+	border-radius: 1rem;
+	box-shadow: 2px 2px 5px 4px var(--main-grey);
+}
+
+.home-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 5rem;
+}
+
+.home-form select {
+	width: 25rem;
+	padding: 0.5rem 1rem;
+	border-radius: 15px;
+	border: 1px solid var(--main-grey);
+}
+
+button,
+.button {
+	width: 11rem;
+	background-color: var(--secondary-color);
+	border: none;
+	border-radius: 5px;
+	color: var(--main-white);
+	padding: 0.1rem 0.2rem;
+	border: 1px solid var(--main-white);
+	box-shadow: 1px 1px 2px var(--main-black);
+	transition: all 0.3s;
+	cursor: pointer;
+	text-align: center;
+}
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
+	box-shadow: 2px 2px 3px 2px var(--main-grey);
+}
+
+.delete-button:hover,
+.delete-button:focus {
+	background-color: rgb(194, 66, 66);
+}
+
+.container-scrapper {
+	margin: 2rem;
+	color: var(--main-grey);
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.link-scrapper {
+	color: var(--main-color);
+}
+
+.link-scrapper:hover,
+.link-scrapper:focus {
+	color: var(--secondary-color);
+}
+
+.scrapper-help li {
+	list-style-type: disc;
+	margin: 1rem;
+	font-size: 1.3rem;
+}
+
+.button {
+	margin-top: 2rem;
+}
+
+h1 {
+	font-size: 3rem;
+	color: var(--secondary-color);
+	text-shadow: 1px 1px 2px var(--main-white), 1px 1px 3px var(--main-grey),
+		1px 1px 1px var(--main-black);
+}
+
+.home-link {
+	margin: 2rem;
+	color: var(--main-color);
+}
+
+.home-link:hover,
+.home-link:focus {
+	color: var(--secondary-color);
+}
+
+.course-container {
+	margin: 1rem 2rem;
+}
+
+.course-container div {
+	font-size: 1.3rem;
+	color: var(--main-grey);
+	margin: 0.5rem;
+	font-weight: bold;
+}
+
+.course-container div span {
+	font-weight: bolder;
+	color: var(--main-black);
+	text-decoration: underline;
+}
+
+.course-list-container {
+	margin-left: 2rem;
+	width: max-content;
+}
+
+.curriculum-list {
+	margin: 0.2rem 0;
+	background-color: var(--main-white);
+	border-radius: 10px;
+	border: 1px solid var(--main-black);
+}
+
+.curriculum-list details {
+	color: var(--main-color);
+}
+
+.curriculum-list details summary {
+	padding: 0.3rem 1rem;
+	cursor: pointer;
+	color: var(--main-black);
+	text-decoration: underline;
+}
+
+.curriculum-list details summary:hover {
+	color: var(--secondary-color);
+}
+
+details ol li {
+	margin-left: 2rem;
+}

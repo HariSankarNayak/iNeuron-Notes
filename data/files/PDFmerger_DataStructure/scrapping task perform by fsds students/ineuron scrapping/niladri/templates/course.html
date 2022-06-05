@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>iNeuron Course Details</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+<div class="table-users">
+    <div class="header">Course: {{course.courseName}}</div>
+
+    <table cellspacing="0">
+        <tr>
+            <td><h3>Description</h3></td>
+            <td><label>{{course.courseDesc}}</label></td>
+        </tr>
+        <tr>
+            <td><h3>Course Requirements</h3></td>
+            <td>
+                <ul>
+                    {% for req in course['courseRequirements'] %}
+                    <li><label>{{req}}</label></li>
+                    {% endfor %}
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><h3>Learnings</h3></td>
+            <td>
+                <ul>
+                    {% for learning in course['courseLearnings'] %}
+                    <li><label>{{learning}}</label></li>
+                    {% endfor %}
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><h3>Course Curriculum</h3></td>
+            <td>
+                <ul>
+                    {% for curriculum in course['courseCurriculums'] %}
+                    <li><label>{{curriculum.name}}</label></li>
+                    <dl>
+                        {% for cudtls in curriculum['curriculumListDetails'] %}
+                        <dd>
+                            <label>{{cudtls}}</label>
+                        </dd>
+                        {% endfor %}
+                    </dl>
+                    {% endfor %}
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><h3>Mentors</h3></td>
+            <td>
+                <ul>
+                    {% for facilty in course['courseFaculties'] %}
+                    <li><h3>{{facilty.name}}</h3></li>
+                    <li><p>{{facilty.profile}}</p></li>
+                    {% endfor %}
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+</body>
+
+</html>

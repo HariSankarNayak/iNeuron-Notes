@@ -1,0 +1,518 @@
+04/15/2022 09:04:26 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:04:26 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:04:26 PM:INFO:demo:Database created
+04/15/2022 09:04:26 PM:INFO:demo:Database created
+04/15/2022 09:04:26 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:04:26 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:04:26 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:04:26 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:04:26 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:04:26 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:04:26 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:04:26 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:04:26 PM:INFO:demo:Fetching data from database
+04/15/2022 09:04:26 PM:INFO:demo:Fetching data from database
+04/15/2022 09:04:56 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:04:56 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:04:56 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:04:56 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:04:56 PM:INFO:demo:Database created
+04/15/2022 09:04:56 PM:INFO:demo:Database created
+04/15/2022 09:04:56 PM:INFO:demo:Database created
+04/15/2022 09:04:56 PM:INFO:demo:Database created
+04/15/2022 09:04:56 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:04:56 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:04:56 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:04:56 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:04:56 PM:INFO:demo:Collection Devops present
+04/15/2022 09:04:56 PM:INFO:demo:Collection Devops present
+04/15/2022 09:04:56 PM:INFO:demo:Collection Devops present
+04/15/2022 09:04:56 PM:INFO:demo:Collection Devops present
+04/15/2022 09:04:56 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:04:56 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:04:56 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:04:56 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:04:56 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:04:56 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:04:56 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:04:56 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:04:57 PM:INFO:demo:Fetching data from database
+04/15/2022 09:04:57 PM:INFO:demo:Fetching data from database
+04/15/2022 09:04:57 PM:INFO:demo:Fetching data from database
+04/15/2022 09:04:57 PM:INFO:demo:Fetching data from database
+04/15/2022 09:05:25 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:05:25 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:05:25 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:05:25 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:05:25 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:05:25 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:05:25 PM:INFO:demo:Database created
+04/15/2022 09:05:25 PM:INFO:demo:Database created
+04/15/2022 09:05:25 PM:INFO:demo:Database created
+04/15/2022 09:05:25 PM:INFO:demo:Database created
+04/15/2022 09:05:25 PM:INFO:demo:Database created
+04/15/2022 09:05:25 PM:INFO:demo:Database created
+04/15/2022 09:05:25 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:05:25 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:05:25 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:05:25 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:05:25 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:05:25 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:05:25 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:05:25 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:05:25 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:05:25 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:05:25 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:05:25 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:05:25 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:05:25 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:05:25 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:05:25 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:05:25 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:05:25 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:05:25 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:05:25 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:05:25 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:05:25 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:05:25 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:05:25 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:05:25 PM:INFO:demo:Fetching data from database
+04/15/2022 09:05:25 PM:INFO:demo:Fetching data from database
+04/15/2022 09:05:25 PM:INFO:demo:Fetching data from database
+04/15/2022 09:05:25 PM:INFO:demo:Fetching data from database
+04/15/2022 09:05:25 PM:INFO:demo:Fetching data from database
+04/15/2022 09:05:25 PM:INFO:demo:Fetching data from database
+04/15/2022 09:08:00 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:08:00 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:08:00 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:08:00 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:08:00 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:08:00 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:08:00 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:08:00 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:08:00 PM:INFO:demo:Database created
+04/15/2022 09:08:00 PM:INFO:demo:Database created
+04/15/2022 09:08:00 PM:INFO:demo:Database created
+04/15/2022 09:08:00 PM:INFO:demo:Database created
+04/15/2022 09:08:00 PM:INFO:demo:Database created
+04/15/2022 09:08:00 PM:INFO:demo:Database created
+04/15/2022 09:08:00 PM:INFO:demo:Database created
+04/15/2022 09:08:00 PM:INFO:demo:Database created
+04/15/2022 09:08:00 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:08:00 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:08:00 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:08:00 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:08:00 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:08:00 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:08:00 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:08:00 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:08:00 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:08:00 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:08:00 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:08:00 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:08:00 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:08:00 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:08:00 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:08:00 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:08:00 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:08:00 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:08:00 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:08:00 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:08:00 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:08:00 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:08:00 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:08:00 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:08:00 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:08:00 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:08:00 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:08:00 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:08:00 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:08:00 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:08:00 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:08:00 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:08:00 PM:INFO:demo:Fetching data from database
+04/15/2022 09:08:00 PM:INFO:demo:Fetching data from database
+04/15/2022 09:08:00 PM:INFO:demo:Fetching data from database
+04/15/2022 09:08:00 PM:INFO:demo:Fetching data from database
+04/15/2022 09:08:00 PM:INFO:demo:Fetching data from database
+04/15/2022 09:08:00 PM:INFO:demo:Fetching data from database
+04/15/2022 09:08:00 PM:INFO:demo:Fetching data from database
+04/15/2022 09:08:00 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:20 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:20 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:20 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:20 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:20 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:20 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:20 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:20 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:20 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:20 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:20 PM:INFO:demo:Database created
+04/15/2022 09:11:20 PM:INFO:demo:Database created
+04/15/2022 09:11:20 PM:INFO:demo:Database created
+04/15/2022 09:11:20 PM:INFO:demo:Database created
+04/15/2022 09:11:20 PM:INFO:demo:Database created
+04/15/2022 09:11:20 PM:INFO:demo:Database created
+04/15/2022 09:11:20 PM:INFO:demo:Database created
+04/15/2022 09:11:20 PM:INFO:demo:Database created
+04/15/2022 09:11:20 PM:INFO:demo:Database created
+04/15/2022 09:11:20 PM:INFO:demo:Database created
+04/15/2022 09:11:20 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:20 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:20 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:20 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:20 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:20 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:20 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:20 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:20 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:20 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:20 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:20 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:20 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:20 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:20 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:20 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:20 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:20 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:20 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:20 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:20 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:20 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:20 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:20 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:20 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:20 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:20 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:20 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:20 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:20 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:20 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:20 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:20 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:20 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:20 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:20 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:20 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:20 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:20 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:20 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:20 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:20 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:20 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:20 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:20 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:20 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:20 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:20 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:20 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:20 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:43 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:43 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:43 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:43 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:43 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:43 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:43 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:43 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:43 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:43 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:43 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:43 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:11:43 PM:INFO:demo:Database created
+04/15/2022 09:11:43 PM:INFO:demo:Database created
+04/15/2022 09:11:43 PM:INFO:demo:Database created
+04/15/2022 09:11:43 PM:INFO:demo:Database created
+04/15/2022 09:11:43 PM:INFO:demo:Database created
+04/15/2022 09:11:43 PM:INFO:demo:Database created
+04/15/2022 09:11:43 PM:INFO:demo:Database created
+04/15/2022 09:11:43 PM:INFO:demo:Database created
+04/15/2022 09:11:43 PM:INFO:demo:Database created
+04/15/2022 09:11:43 PM:INFO:demo:Database created
+04/15/2022 09:11:43 PM:INFO:demo:Database created
+04/15/2022 09:11:43 PM:INFO:demo:Database created
+04/15/2022 09:11:44 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:44 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:44 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:44 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:44 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:44 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:44 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:44 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:44 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:44 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:44 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:44 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:11:44 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:44 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:44 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:44 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:44 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:44 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:44 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:44 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:44 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:44 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:44 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:44 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:11:44 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:44 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:44 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:44 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:44 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:44 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:44 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:44 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:44 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:44 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:44 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:44 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:11:44 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:44 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:44 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:44 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:44 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:44 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:44 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:44 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:44 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:44 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:44 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:44 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:11:44 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:44 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:44 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:44 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:44 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:44 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:44 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:44 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:44 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:44 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:44 PM:INFO:demo:Fetching data from database
+04/15/2022 09:11:44 PM:INFO:demo:Fetching data from database
+04/15/2022 09:12:59 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:12:59 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:12:59 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:12:59 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:12:59 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:12:59 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:12:59 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:12:59 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:12:59 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:12:59 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:12:59 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:12:59 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:12:59 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:12:59 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:12:59 PM:INFO:demo:Database created
+04/15/2022 09:12:59 PM:INFO:demo:Database created
+04/15/2022 09:12:59 PM:INFO:demo:Database created
+04/15/2022 09:12:59 PM:INFO:demo:Database created
+04/15/2022 09:12:59 PM:INFO:demo:Database created
+04/15/2022 09:12:59 PM:INFO:demo:Database created
+04/15/2022 09:12:59 PM:INFO:demo:Database created
+04/15/2022 09:12:59 PM:INFO:demo:Database created
+04/15/2022 09:12:59 PM:INFO:demo:Database created
+04/15/2022 09:12:59 PM:INFO:demo:Database created
+04/15/2022 09:12:59 PM:INFO:demo:Database created
+04/15/2022 09:12:59 PM:INFO:demo:Database created
+04/15/2022 09:12:59 PM:INFO:demo:Database created
+04/15/2022 09:12:59 PM:INFO:demo:Database created
+04/15/2022 09:12:59 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:12:59 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:12:59 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:12:59 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:12:59 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:12:59 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:12:59 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:12:59 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:12:59 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:12:59 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:12:59 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:12:59 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:12:59 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:12:59 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:12:59 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:12:59 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:12:59 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:12:59 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:12:59 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:12:59 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:12:59 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:12:59 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:12:59 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:12:59 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:12:59 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:12:59 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:12:59 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:12:59 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:12:59 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:12:59 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:12:59 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:12:59 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:12:59 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:12:59 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:12:59 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:12:59 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:12:59 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:12:59 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:12:59 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:12:59 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:12:59 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:12:59 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:12:59 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:12:59 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:12:59 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:12:59 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:12:59 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:12:59 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:12:59 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:12:59 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:12:59 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:12:59 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:12:59 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:12:59 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:12:59 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:12:59 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:12:59 PM:INFO:demo:Fetching data from database
+04/15/2022 09:12:59 PM:INFO:demo:Fetching data from database
+04/15/2022 09:12:59 PM:INFO:demo:Fetching data from database
+04/15/2022 09:12:59 PM:INFO:demo:Fetching data from database
+04/15/2022 09:12:59 PM:INFO:demo:Fetching data from database
+04/15/2022 09:12:59 PM:INFO:demo:Fetching data from database
+04/15/2022 09:12:59 PM:INFO:demo:Fetching data from database
+04/15/2022 09:12:59 PM:INFO:demo:Fetching data from database
+04/15/2022 09:12:59 PM:INFO:demo:Fetching data from database
+04/15/2022 09:12:59 PM:INFO:demo:Fetching data from database
+04/15/2022 09:12:59 PM:INFO:demo:Fetching data from database
+04/15/2022 09:12:59 PM:INFO:demo:Fetching data from database
+04/15/2022 09:12:59 PM:INFO:demo:Fetching data from database
+04/15/2022 09:12:59 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:29 PM:INFO:demo:Database created
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Collection Data-Science present
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Checks if collection present in database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching records from collection
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 09:13:30 PM:INFO:demo:Fetching data from database
+04/15/2022 11:14:24 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 11:14:24 PM:INFO:demo:Connection Established!MongoClient(host=['cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True)
+04/15/2022 11:14:24 PM:INFO:demo:Database created
+04/15/2022 11:14:24 PM:INFO:demo:Database created
+04/15/2022 11:14:24 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 11:14:24 PM:INFO:demo:Database Database(MongoClient(host=['cluster0-shard-00-01.oxgpt.mongodb.net:27017', 'cluster0-shard-00-02.oxgpt.mongodb.net:27017', 'cluster0-shard-00-00.oxgpt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-th8ou3-shard-0', tls=True), 'Ineuron_Scrapper') present
+04/15/2022 11:14:24 PM:INFO:demo:Collection Data-Science present
+04/15/2022 11:14:24 PM:INFO:demo:Collection Data-Science present
+04/15/2022 11:14:24 PM:INFO:demo:Checks if collection present in database
+04/15/2022 11:14:24 PM:INFO:demo:Checks if collection present in database
+04/15/2022 11:14:24 PM:INFO:demo:Fetching records from collection
+04/15/2022 11:14:24 PM:INFO:demo:Fetching records from collection
+04/15/2022 11:14:24 PM:INFO:demo:Fetching data from database
+04/15/2022 11:14:24 PM:INFO:demo:Fetching data from database

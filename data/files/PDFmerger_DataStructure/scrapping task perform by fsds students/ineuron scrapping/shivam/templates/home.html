@@ -1,0 +1,26 @@
+{% extends 'base.html' %} {% block head %}
+<title>Home</title>
+{% endblock %} {% block body %}
+<div class="course-count">Courses<span>{{count}}</span></div>
+<form action="/course" method="post" class="home-form">
+	<div>
+		<span style="font-size: 1.5rem; font-weight: bold; color: var(--main-black)"
+			>Visit:
+		</span>
+		<select name="course" required>
+			<option value="" disabled selected>Select Course</option>
+			{% for course in course_names %}
+			<option value="{{course['Title']}}">{{course["Title"]}}</option>
+			{% endfor %}
+		</select>
+	</div>
+	<br />
+	<button type="submit">SUBMIT</button>
+</form>
+<form action="/" method="post">
+	<button type="submit" class="delete-button">Delete all courses</button>
+</form>
+<div class="container-scrapper">
+	<a href="/scrapper" class="link-scrapper">Go to Scrapper</a>
+</div>
+{% endblock %}

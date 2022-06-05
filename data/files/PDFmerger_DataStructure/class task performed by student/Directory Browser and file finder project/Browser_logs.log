@@ -1,0 +1,151 @@
+
+2022-01-25 01:51:25,074-start1-INFO-started with browser menu building
+2022-01-25 01:51:25,074-Browser_main-INFO-main program started
+2022-01-25 01:52:35,181-start1-INFO-started with browser menu building
+2022-01-25 01:52:35,181-Browser_main-INFO-main program started
+2022-01-25 01:52:40,619-start1-INFO-started with browser menu building
+2022-01-25 01:52:40,619-Browser_main-INFO-main program started
+2022-01-25 02:13:17,902-Browser_main-INFO-main program started
+2022-01-25 02:13:17,902-Browser_main-ERROR-Some error occurred while callsing start1
+2022-01-25 02:13:17,902-Browser_main-ERROR-e
+Traceback (most recent call last):
+  File "D:/user/jupyternotes/pycharm/Project1/Browser project/Browser_main.py", line 9, in <module>
+    start1(x)
+NameError: name 'x' is not defined
+2022-01-25 02:36:16,108-Browser_main-INFO-main program started
+2022-01-25 02:36:16,108-start1-INFO-started with browser menu building
+2022-01-25 02:46:47,747-Browser_main-INFO-main program started
+2022-01-25 02:46:47,747-start1-INFO-started with browser menu building
+2022-01-25 02:46:51,784-getlist-INFO-Entered to getlist
+2022-01-25 02:46:51,784-getpath-INFO-Entered into getpath
+2022-01-25 02:46:51,784-getlist-INFO-Entered into getlist
+2022-01-25 02:46:54,651-getfile-INFO-entered into getfile
+2022-01-25 02:46:54,652-fetchfile-INFO-Entered into fetchfile
+2022-01-25 02:46:57,803-Browser_main-INFO-The Browser and File finder worked successfully
+2022-01-25 02:49:11,131-Browser_main-INFO-main program started
+2022-01-25 02:49:11,131-start1-INFO-started with browser menu building
+2022-01-25 02:49:14,042-getlist-INFO-Entered to getlist
+2022-01-25 02:49:14,044-getpath-INFO-Entered into getpath
+2022-01-25 02:49:14,044-getpath-ERROR-Error occurred while listing files and directories
+2022-01-25 02:49:14,044-getpath-ERROR-name 'getlist' is not defined
+Traceback (most recent call last):
+  File "D:\user\jupyternotes\pycharm\Project1\Browser project\Browser_path.py", line 11, in getpath
+    lst_dir=getlist(path)
+NameError: name 'getlist' is not defined
+2022-01-25 02:49:22,983-getfile-INFO-entered into getfile
+2022-01-25 02:49:22,984-fetchfile-INFO-Entered into fetchfile
+2022-01-25 02:49:27,512-Browser_main-INFO-The Browser and File finder worked successfully
+2022-01-25 02:50:07,452-Browser_main-INFO-main program started
+2022-01-25 02:50:07,453-start1-INFO-started with browser menu building
+2022-01-25 02:50:10,781-getlist-INFO-Entered to getlist
+2022-01-25 02:50:10,781-getpath-INFO-Entered into getpath
+2022-01-25 02:50:10,781-getlist-INFO-Entered into getlist
+2022-01-25 02:50:13,585-getfile-INFO-entered into getfile
+2022-01-25 02:50:13,585-fetchfile-INFO-Entered into fetchfile
+2022-01-25 02:50:18,428-Browser_main-INFO-The Browser and File finder worked successfully
+2022-01-25 02:51:13,186-Browser_main-INFO-main program started
+2022-01-25 02:51:13,186-start1-INFO-started with browser menu building
+2022-01-25 02:51:16,627-getlist-INFO-Entered to getlist
+2022-01-25 02:51:16,627-getpath-INFO-Entered into getpath
+2022-01-25 02:51:16,627-fetchlist-INFO-Entered into getlist
+2022-01-25 02:51:21,114-getfile-INFO-entered into getfile
+2022-01-25 02:51:21,114-fetchfile-INFO-Entered into fetchfile
+2022-01-25 02:51:23,854-Browser_main-INFO-The Browser and File finder worked successfully
+2022-01-25 02:54:21,762-Browser_main-INFO-main program started
+2022-01-25 02:54:21,763-start1-INFO-started with browser menu building
+2022-01-25 02:54:22,233-start1-ERROR-Errorred occurred in module start1
+2022-01-25 02:54:22,233-start1-ERROR-name 'blue' is not defined
+Traceback (most recent call last):
+  File "D:\user\jupyternotes\pycharm\Project1\Browser project\Browser_start.py", line 18, in start1
+    label1=Label(root,text="Please enter the directory path",bg='pink',fg=blue)
+NameError: name 'blue' is not defined
+2022-01-25 02:54:31,140-Browser_main-INFO-The Browser and File finder worked successfully
+2022-01-25 02:57:16,172-Browser_main-INFO-main program started
+2022-01-25 02:57:16,173-start1-INFO-started with browser menu building
+2022-01-25 02:58:27,813-Browser_main-INFO-The Browser and File finder worked successfully
+2022-01-25 02:59:15,133-Browser_main-INFO-main program started
+2022-01-25 02:59:15,133-start1-INFO-started with browser menu building
+2022-01-25 02:59:18,945-Browser_main-INFO-The Browser and File finder worked successfully
+2022-01-25 02:59:39,916-Browser_main-INFO-main program started
+2022-01-25 02:59:39,916-start1-INFO-started with browser menu building
+2022-01-25 03:02:01,128-Browser_main-INFO-main program started
+2022-01-25 03:02:01,128-start1-INFO-started with browser menu building
+2022-01-25 03:03:23,618-Browser_main-INFO-The Browser and File finder worked successfully
+2022-01-25 03:03:27,405-Browser_main-INFO-main program started
+2022-01-25 03:03:27,406-start1-INFO-started with browser menu building
+2022-01-25 03:04:17,948-Browser_main-INFO-main program started
+2022-01-25 03:04:17,949-start1-INFO-started with browser menu building
+2022-01-25 03:04:54,514-getlist-INFO-Entered to getlist
+2022-01-25 03:04:54,515-getpath-INFO-Entered into getpath
+2022-01-25 03:04:54,515-fetchlist-INFO-Entered into getlist
+2022-01-25 03:06:57,119-Browser_main-INFO-main program started
+2022-01-25 03:06:57,119-start1-INFO-started with browser menu building
+2022-01-25 03:07:03,607-getfile-INFO-entered into getfile
+2022-01-25 03:07:03,607-fetchfile-INFO-Entered into fetchfile
+2022-01-25 03:07:30,848-Browser_main-INFO-main program started
+2022-01-25 03:07:30,848-start1-INFO-started with browser menu building
+2022-01-25 03:08:28,216-Browser_main-INFO-main program started
+2022-01-25 03:08:28,216-start1-INFO-started with browser menu building
+2022-01-25 03:10:32,704-Browser_main-INFO-main program started
+2022-01-25 03:10:32,705-start1-INFO-started with browser menu building
+2022-01-25 03:11:50,278-Browser_main-INFO-main program started
+2022-01-25 03:11:50,279-start1-INFO-started with browser menu building
+2022-01-25 03:13:15,303-Browser_main-INFO-main program started
+2022-01-25 03:13:15,303-start1-INFO-started with browser menu building
+2022-01-25 03:13:15,431-start1-ERROR-Errorred occurred in module start1
+2022-01-25 03:13:15,431-start1-ERROR-unknown color name "yllow"
+Traceback (most recent call last):
+  File "D:\user\jupyternotes\pycharm\Project1\Browser project\Browser_start.py", line 56, in start1
+    e5=Text(root,height=5,width=40,background='yllow',foreground='red')
+  File "C:\Users\pushpa javali\anaconda3\envs\Project1\lib\tkinter\__init__.py", line 3559, in __init__
+    Widget.__init__(self, master, 'text', cnf, kw)
+  File "C:\Users\pushpa javali\anaconda3\envs\Project1\lib\tkinter\__init__.py", line 2572, in __init__
+    self.tk.call(
+_tkinter.TclError: unknown color name "yllow"
+2022-01-25 03:13:34,239-Browser_main-INFO-The Browser and File finder worked successfully
+2022-01-25 03:14:05,202-Browser_main-INFO-main program started
+2022-01-25 03:14:05,202-start1-INFO-started with browser menu building
+2022-01-25 03:14:29,813-getlist-INFO-Entered to getlist
+2022-01-25 03:14:29,814-getpath-INFO-Entered into getpath
+2022-01-25 03:14:29,814-fetchlist-INFO-Entered into getlist
+2022-01-25 03:14:32,945-getfile-INFO-entered into getfile
+2022-01-25 03:14:32,945-fetchfile-INFO-Entered into fetchfile
+2022-01-25 03:15:02,373-Browser_main-INFO-The Browser and File finder worked successfully
+2022-01-25 03:34:33,543-Browser_main-INFO-main program started
+2022-01-25 03:34:33,543-start1-INFO-started with browser menu building
+2022-01-25 03:34:48,057-getlist-INFO-Entered to getlist
+2022-01-25 03:34:48,057-getpath-INFO-Entered into getpath
+2022-01-25 03:34:48,057-fetchlist-INFO-Entered into getlist
+2022-01-25 03:34:51,500-getfile-INFO-entered into getfile
+2022-01-25 03:34:51,500-fetchfile-INFO-Entered into fetchfile
+2022-01-25 03:39:33,880-Browser_main-INFO-main program started
+2022-01-25 03:39:33,880-start1-INFO-started with browser menu building
+2022-01-25 03:39:37,056-getlist-INFO-Entered to getlist
+2022-01-25 03:39:37,057-getpath-INFO-Entered into getpath
+2022-01-25 03:39:37,057-fetchlist-INFO-Entered into getlist
+2022-01-25 03:39:40,728-getfile-INFO-entered into getfile
+2022-01-25 03:39:40,729-fetchfile-INFO-Entered into fetchfile
+2022-01-25 03:41:19,478-Browser_main-INFO-The Browser and File finder worked successfully
+2022-01-25 03:41:40,930-Browser_main-INFO-main program started
+2022-01-25 03:41:40,931-start1-INFO-started with browser menu building
+2022-01-25 03:41:46,212-getlist-INFO-Entered to getlist
+2022-01-25 03:41:46,213-getpath-INFO-Entered into getpath
+2022-01-25 03:41:46,213-fetchlist-INFO-Entered into getlist
+2022-01-25 03:41:47,327-getfile-INFO-entered into getfile
+2022-01-25 03:41:47,327-fetchfile-INFO-Entered into fetchfile
+2022-01-25 03:41:49,551-Browser_main-INFO-The Browser and File finder worked successfully
+2022-01-25 03:42:33,277-Browser_main-INFO-main program started
+2022-01-25 03:42:33,277-start1-INFO-started with browser menu building
+2022-01-25 03:42:39,180-getfile-INFO-entered into getfile
+2022-01-25 03:42:39,180-fetchfile-INFO-Entered into fetchfile
+2022-01-25 03:43:54,337-Browser_main-INFO-main program started
+2022-01-25 03:43:54,337-start1-INFO-started with browser menu building
+2022-01-25 03:44:04,673-getlist-INFO-Entered to getlist
+2022-01-25 03:44:04,673-getpath-INFO-Entered into getpath
+2022-01-25 03:44:04,673-fetchlist-INFO-Entered into getlist
+2022-01-25 03:44:07,316-getfile-INFO-entered into getfile
+2022-01-25 03:44:07,316-fetchfile-INFO-Entered into fetchfile
+2022-01-25 03:44:09,117-Browser_main-INFO-The Browser and File finder worked successfully
+2022-02-02 12:18:48,159-Browser_main-INFO-main program started
+2022-02-02 12:18:48,160-start1-INFO-started with browser menu building
+2022-02-02 12:19:03,345-Browser_main-INFO-The Browser and File finder worked successfully

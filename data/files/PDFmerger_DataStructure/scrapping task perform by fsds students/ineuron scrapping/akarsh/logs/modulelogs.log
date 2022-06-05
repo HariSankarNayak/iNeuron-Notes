@@ -1,0 +1,9 @@
+scrap_data - 2022-04-12 23:41:40,697 - INFO - Data retrieved successfully
+scrap_data - 2022-04-13 00:14:16,625 - INFO - Data retrieved successfully
+scrap_data - 2022-04-13 00:14:21,667 - INFO - Successfully Scrapped the data
+scrap_data - 2022-04-13 10:56:08,270 - INFO - Data retrieved successfully
+scrap_data - 2022-04-13 11:07:04,297 - INFO - Failed to scrap the data
+scrap_data - 2022-04-13 11:07:04,297 - ERROR - 'pricing'
+scrap_data - 2022-04-13 13:29:46,069 - INFO - Data retrieved successfully
+scrap_data - 2022-04-13 13:36:21,588 - INFO - Failed to scrap the data
+scrap_data - 2022-04-13 13:36:21,588 - ERROR - 'pricing'
