@@ -1,0 +1,404 @@
+2022-04-15 23:25:03,404:INFO: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-04-15 23:25:03,407:INFO: * Restarting with stat
+2022-04-15 23:25:03,958:WARNING: * Debugger is active!
+2022-04-15 23:25:03,964:INFO: * Debugger PIN: 714-674-771
+2022-04-16 00:01:52,967:WARNING: * Debugger is active!
+2022-04-16 00:01:52,970:INFO: * Debugger PIN: 714-674-771
+2022-04-16 00:03:02,584:INFO: * Detected change in 'F:\\iNeuron\\Project\\reviewscrapper\\app.py', reloading
+2022-04-16 00:03:03,204:WARNING: * Debugger is active!
+2022-04-16 00:03:03,207:INFO: * Debugger PIN: 714-674-771
+2022-04-16 00:03:30,832:INFO: * Detected change in 'F:\\iNeuron\\Project\\reviewscrapper\\models.py', reloading
+2022-04-16 00:03:31,454:WARNING: * Debugger is active!
+2022-04-16 00:03:31,458:INFO: * Debugger PIN: 714-674-771
+2022-04-16 00:03:44,711:INFO: * Detected change in 'F:\\iNeuron\\Project\\reviewscrapper\\models.py', reloading
+2022-04-16 00:03:45,372:WARNING: * Debugger is active!
+2022-04-16 00:03:45,376:INFO: * Debugger PIN: 714-674-771
+2022-04-16 00:03:52,529:INFO: * Detected change in 'F:\\iNeuron\\Project\\reviewscrapper\\models.py', reloading
+2022-04-16 00:03:53,158:WARNING: * Debugger is active!
+2022-04-16 00:03:53,161:INFO: * Debugger PIN: 714-674-771
+2022-04-16 00:03:59,305:INFO: * Detected change in 'F:\\iNeuron\\Project\\reviewscrapper\\models.py', reloading
+2022-04-16 00:03:59,942:WARNING: * Debugger is active!
+2022-04-16 00:03:59,947:INFO: * Debugger PIN: 714-674-771
+2022-04-16 00:04:21,423:INFO: * Detected change in 'F:\\iNeuron\\Project\\reviewscrapper\\models.py', reloading
+2022-04-16 00:04:22,140:WARNING: * Debugger is active!
+2022-04-16 00:04:22,152:INFO: * Debugger PIN: 714-674-771
+2022-04-16 00:04:50,221:INFO: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-04-16 00:04:50,222:INFO: * Restarting with stat
+2022-04-16 00:04:50,806:WARNING: * Debugger is active!
+2022-04-16 00:04:50,809:INFO: * Debugger PIN: 714-674-771
+2022-04-16 00:05:11,710:INFO:Starting home page
+2022-04-16 00:05:11,711:INFO:Setting up SQL Connection
+2022-04-16 00:05:11,750:INFO:ineurondata is present
+2022-04-16 00:05:11,764:INFO:mastercourse table is present
+2022-04-16 00:05:11,764:INFO:subtopic table is present
+2022-04-16 00:05:11,764:INFO:course table is present
+2022-04-16 00:05:11,764:INFO:curriculum table is present
+2022-04-16 00:05:11,764:INFO:faculty table is present
+2022-04-16 00:05:11,777:INFO:127.0.0.1 - - [16/Apr/2022 00:05:11] "GET / HTTP/1.1" 200 -
+2022-04-16 00:05:11,924:INFO:127.0.0.1 - - [16/Apr/2022 00:05:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-04-16 00:05:11,927:INFO:127.0.0.1 - - [16/Apr/2022 00:05:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:06:10,751:INFO:Going to insert courses into Database
+2022-04-16 00:06:10,752:INFO:getConn loadMainCourseTable called
+2022-04-16 00:06:12,386:INFO:127.0.0.1 - - [16/Apr/2022 00:06:12] "POST /maincourses HTTP/1.1" 200 -
+2022-04-16 00:06:12,471:INFO:127.0.0.1 - - [16/Apr/2022 00:06:12] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:06:12,476:INFO:127.0.0.1 - - [16/Apr/2022 00:06:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:06:45,426:INFO:Going to insert sub topics into Database
+2022-04-16 00:06:45,426:INFO:loadSubtopicTable method called
+2022-04-16 00:06:45,604:INFO:127.0.0.1 - - [16/Apr/2022 00:06:45] "POST /subtopics HTTP/1.1" 200 -
+2022-04-16 00:06:45,640:INFO:127.0.0.1 - - [16/Apr/2022 00:06:45] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:06:45,643:INFO:127.0.0.1 - - [16/Apr/2022 00:06:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:06:52,742:INFO:Course curriculums:
+2022-04-16 00:06:52,742:INFO:Course faculties:
+2022-04-16 00:07:04,067:INFO:Going to insert faculty details into Database
+2022-04-16 00:07:04,067:INFO:loadFacultyTable method called
+2022-04-16 00:07:04,173:INFO:Course curriculums:
+2022-04-16 00:07:04,298:INFO:Course faculties:
+2022-04-16 00:07:04,329:INFO:loadCurriculumTable method called
+2022-04-16 00:07:04,617:INFO:Course curriculums:
+2022-04-16 00:07:04,731:INFO:Course faculties:
+2022-04-16 00:07:04,742:INFO:loadCourseTable method called
+2022-04-16 00:07:04,896:INFO:127.0.0.1 - - [16/Apr/2022 00:07:04] "POST /courses HTTP/1.1" 200 -
+2022-04-16 00:07:04,960:INFO:127.0.0.1 - - [16/Apr/2022 00:07:04] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:07:04,966:INFO:127.0.0.1 - - [16/Apr/2022 00:07:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:08:47,485:INFO: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-04-16 00:08:47,486:INFO: * Restarting with stat
+2022-04-16 00:08:48,046:WARNING: * Debugger is active!
+2022-04-16 00:08:48,050:INFO: * Debugger PIN: 714-674-771
+2022-04-16 00:08:54,580:INFO:Starting home page
+2022-04-16 00:08:54,580:INFO:Setting up SQL Connection
+2022-04-16 00:08:54,618:INFO:ineurondata is present
+2022-04-16 00:08:54,623:INFO:mastercourse table is present
+2022-04-16 00:08:54,623:INFO:subtopic table is present
+2022-04-16 00:08:54,623:INFO:course table is present
+2022-04-16 00:08:54,623:INFO:curriculum table is present
+2022-04-16 00:08:54,623:INFO:faculty table is present
+2022-04-16 00:08:54,631:INFO:127.0.0.1 - - [16/Apr/2022 00:08:54] "GET / HTTP/1.1" 200 -
+2022-04-16 00:08:54,733:INFO:127.0.0.1 - - [16/Apr/2022 00:08:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:08:54,734:INFO:127.0.0.1 - - [16/Apr/2022 00:08:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-04-16 00:09:32,641:INFO:Going to insert courses into Database
+2022-04-16 00:09:32,642:INFO:getConn loadMainCourseTable called
+2022-04-16 00:09:34,376:INFO:127.0.0.1 - - [16/Apr/2022 00:09:34] "POST /maincourses HTTP/1.1" 200 -
+2022-04-16 00:09:34,471:INFO:127.0.0.1 - - [16/Apr/2022 00:09:34] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:09:34,476:INFO:127.0.0.1 - - [16/Apr/2022 00:09:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:10:01,256:INFO:Going to insert sub topics into Database
+2022-04-16 00:10:01,256:INFO:loadSubtopicTable method called
+2022-04-16 00:10:01,513:INFO:127.0.0.1 - - [16/Apr/2022 00:10:01] "POST /subtopics HTTP/1.1" 200 -
+2022-04-16 00:10:01,585:INFO:127.0.0.1 - - [16/Apr/2022 00:10:01] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:10:01,590:INFO:127.0.0.1 - - [16/Apr/2022 00:10:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:10:19,766:INFO:Course curriculums:
+2022-04-16 00:10:19,766:INFO:Course faculties:
+2022-04-16 00:10:31,442:INFO:Going to insert faculty details into Database
+2022-04-16 00:10:31,443:INFO:loadFacultyTable method called
+2022-04-16 00:10:31,550:INFO:Course curriculums:
+2022-04-16 00:10:31,799:INFO:Course faculties:
+2022-04-16 00:10:31,828:INFO:loadCurriculumTable method called
+2022-04-16 00:10:32,425:INFO:Course curriculums:
+2022-04-16 00:10:32,689:INFO:Course faculties:
+2022-04-16 00:10:32,718:INFO:loadCourseTable method called
+2022-04-16 00:10:32,788:INFO:127.0.0.1 - - [16/Apr/2022 00:10:32] "POST /courses HTTP/1.1" 200 -
+2022-04-16 00:10:32,853:INFO:127.0.0.1 - - [16/Apr/2022 00:10:32] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:10:32,859:INFO:127.0.0.1 - - [16/Apr/2022 00:10:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:31:15,458:INFO: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-04-16 00:31:15,462:INFO: * Restarting with stat
+2022-04-16 00:31:16,847:WARNING: * Debugger is active!
+2022-04-16 00:31:16,855:INFO: * Debugger PIN: 714-674-771
+2022-04-16 00:31:35,559:INFO:Starting home page
+2022-04-16 00:31:35,560:INFO:Setting up SQL Connection
+2022-04-16 00:31:35,696:INFO:ineurondata is present
+2022-04-16 00:31:35,717:INFO:Creating mastercourse table in iNeuronData database
+2022-04-16 00:31:35,782:INFO:Creating subtopic table in iNeuronData database
+2022-04-16 00:31:35,813:INFO:Creating course table in iNeuronData database
+2022-04-16 00:31:35,844:INFO:Creating curriculum table in iNeuronData database
+2022-04-16 00:31:35,871:INFO:Creating faculty table in iNeuronData database
+2022-04-16 00:31:35,930:INFO:127.0.0.1 - - [16/Apr/2022 00:31:35] "GET / HTTP/1.1" 200 -
+2022-04-16 00:31:36,299:INFO:127.0.0.1 - - [16/Apr/2022 00:31:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-04-16 00:31:36,331:INFO:127.0.0.1 - - [16/Apr/2022 00:31:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:35:58,707:INFO:127.0.0.1 - - [16/Apr/2022 00:35:58] "POST /maincourses HTTP/1.1" 200 -
+2022-04-16 00:38:11,764:INFO: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-04-16 00:38:11,768:INFO: * Restarting with stat
+2022-04-16 00:38:13,307:WARNING: * Debugger is active!
+2022-04-16 00:38:13,315:INFO: * Debugger PIN: 714-674-771
+2022-04-16 00:38:26,461:INFO:Starting home page
+2022-04-16 00:38:26,461:INFO:Setting up SQL Connection
+2022-04-16 00:38:26,580:INFO:ineurondata is present
+2022-04-16 00:38:26,590:INFO:mastercourse table is present
+2022-04-16 00:38:26,591:INFO:subtopic table is present
+2022-04-16 00:38:26,591:INFO:course table is present
+2022-04-16 00:38:26,591:INFO:curriculum table is present
+2022-04-16 00:38:26,592:INFO:faculty table is present
+2022-04-16 00:38:26,620:INFO:127.0.0.1 - - [16/Apr/2022 00:38:26] "GET / HTTP/1.1" 200 -
+2022-04-16 00:38:27,007:INFO:127.0.0.1 - - [16/Apr/2022 00:38:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-04-16 00:38:27,035:INFO:127.0.0.1 - - [16/Apr/2022 00:38:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:39:05,307:INFO:Going to insert courses into Database
+2022-04-16 00:39:05,308:INFO:getConn loadMainCourseTable called
+2022-04-16 00:39:07,441:INFO:127.0.0.1 - - [16/Apr/2022 00:39:07] "POST /maincourses HTTP/1.1" 200 -
+2022-04-16 00:39:07,512:INFO:127.0.0.1 - - [16/Apr/2022 00:39:07] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:39:07,518:INFO:127.0.0.1 - - [16/Apr/2022 00:39:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:40:10,134:INFO:Going to insert sub topics into Database
+2022-04-16 00:40:10,134:INFO:loadSubtopicTable method called
+2022-04-16 00:40:10,326:INFO:127.0.0.1 - - [16/Apr/2022 00:40:10] "POST /subtopics HTTP/1.1" 200 -
+2022-04-16 00:40:10,398:INFO:127.0.0.1 - - [16/Apr/2022 00:40:10] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:40:10,403:INFO:127.0.0.1 - - [16/Apr/2022 00:40:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:40:15,283:INFO:Course curriculums:
+2022-04-16 00:40:15,283:INFO:Course faculties:
+2022-04-16 00:40:33,486:INFO:Going to insert faculty details into Database
+2022-04-16 00:40:33,486:INFO:loadFacultyTable method called
+2022-04-16 00:40:33,590:INFO:Course curriculums:
+2022-04-16 00:40:33,867:INFO:Course faculties:
+2022-04-16 00:40:33,885:INFO:loadCurriculumTable method called
+2022-04-16 00:40:34,534:INFO:Course curriculums:
+2022-04-16 00:40:34,796:INFO:Course faculties:
+2022-04-16 00:40:34,813:INFO:loadCourseTable method called
+2022-04-16 00:40:34,895:INFO:127.0.0.1 - - [16/Apr/2022 00:40:34] "POST /courses HTTP/1.1" 200 -
+2022-04-16 00:40:34,973:INFO:127.0.0.1 - - [16/Apr/2022 00:40:34] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:40:34,979:INFO:127.0.0.1 - - [16/Apr/2022 00:40:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:46:21,209:INFO: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-04-16 00:46:21,212:INFO: * Restarting with stat
+2022-04-16 00:46:21,823:WARNING: * Debugger is active!
+2022-04-16 00:46:21,826:INFO: * Debugger PIN: 714-674-771
+2022-04-16 00:46:38,220:INFO:Starting home page
+2022-04-16 00:46:38,221:INFO:Setting up SQL Connection
+2022-04-16 00:46:38,269:INFO:ineurondata is present
+2022-04-16 00:46:38,281:INFO:mastercourse table is present
+2022-04-16 00:46:38,281:INFO:subtopic table is present
+2022-04-16 00:46:38,281:INFO:course table is present
+2022-04-16 00:46:38,281:INFO:curriculum table is present
+2022-04-16 00:46:38,281:INFO:faculty table is present
+2022-04-16 00:46:38,291:INFO:127.0.0.1 - - [16/Apr/2022 00:46:38] "GET / HTTP/1.1" 200 -
+2022-04-16 00:46:38,480:INFO:127.0.0.1 - - [16/Apr/2022 00:46:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-04-16 00:46:38,481:INFO:127.0.0.1 - - [16/Apr/2022 00:46:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:47:44,107:INFO:Going to insert courses into Database
+2022-04-16 00:47:44,108:INFO:getConn loadMainCourseTable called
+2022-04-16 00:47:46,042:INFO:127.0.0.1 - - [16/Apr/2022 00:47:46] "POST /maincourses HTTP/1.1" 200 -
+2022-04-16 00:47:46,140:INFO:127.0.0.1 - - [16/Apr/2022 00:47:46] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:47:46,146:INFO:127.0.0.1 - - [16/Apr/2022 00:47:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:49:45,966:INFO:Going to insert sub topics into Database
+2022-04-16 00:49:45,966:INFO:loadSubtopicTable method called
+2022-04-16 00:49:46,300:INFO:127.0.0.1 - - [16/Apr/2022 00:49:46] "POST /subtopics HTTP/1.1" 200 -
+2022-04-16 00:49:46,414:INFO:127.0.0.1 - - [16/Apr/2022 00:49:46] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:49:46,431:INFO:127.0.0.1 - - [16/Apr/2022 00:49:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:51:08,734:INFO:Course curriculums:
+2022-04-16 00:51:08,734:INFO:Course faculties:
+2022-04-16 00:51:34,394:INFO:Going to insert faculty details into Database
+2022-04-16 00:51:34,394:INFO:loadFacultyTable method called
+2022-04-16 00:51:34,457:INFO:Going to insert faculty details into Database
+2022-04-16 00:51:34,458:INFO:loadFacultyTable method called
+2022-04-16 00:51:34,534:INFO:Going to insert faculty details into Database
+2022-04-16 00:51:34,535:INFO:loadFacultyTable method called
+2022-04-16 00:51:34,641:INFO:Course curriculums:
+2022-04-16 00:51:37,594:INFO:Course faculties:
+2022-04-16 00:51:37,658:INFO:loadCurriculumTable method called
+2022-04-16 00:51:42,016:INFO:Course curriculums:
+2022-04-16 00:51:44,971:INFO:Course faculties:
+2022-04-16 00:51:45,044:INFO:loadCourseTable method called
+2022-04-16 00:51:45,108:INFO:127.0.0.1 - - [16/Apr/2022 00:51:45] "POST /courses HTTP/1.1" 200 -
+2022-04-16 00:51:45,175:INFO:127.0.0.1 - - [16/Apr/2022 00:51:45] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:51:45,179:INFO:127.0.0.1 - - [16/Apr/2022 00:51:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:54:23,424:INFO:Course curriculums:
+2022-04-16 00:54:23,424:INFO:Course faculties:
+2022-04-16 00:54:35,606:INFO:Going to insert faculty details into Database
+2022-04-16 00:54:35,606:INFO:loadFacultyTable method called
+2022-04-16 00:54:35,717:INFO:Course curriculums:
+2022-04-16 00:54:35,749:INFO:Course faculties:
+2022-04-16 00:54:35,783:INFO:loadCurriculumTable method called
+2022-04-16 00:54:35,925:INFO:Course curriculums:
+2022-04-16 00:54:35,966:INFO:Course faculties:
+2022-04-16 00:54:36,001:INFO:loadCourseTable method called
+2022-04-16 00:54:36,063:INFO:127.0.0.1 - - [16/Apr/2022 00:54:36] "POST /courses HTTP/1.1" 200 -
+2022-04-16 00:54:36,226:INFO:127.0.0.1 - - [16/Apr/2022 00:54:36] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:54:36,240:INFO:127.0.0.1 - - [16/Apr/2022 00:54:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:55:37,763:INFO:Course curriculums:
+2022-04-16 00:55:37,764:INFO:Course faculties:
+2022-04-16 00:55:56,166:INFO:Going to insert faculty details into Database
+2022-04-16 00:55:56,166:INFO:loadFacultyTable method called
+2022-04-16 00:55:56,263:INFO:Course curriculums:
+2022-04-16 00:55:56,304:INFO:Course faculties:
+2022-04-16 00:55:56,326:INFO:loadCurriculumTable method called
+2022-04-16 00:55:56,456:INFO:Course curriculums:
+2022-04-16 00:55:56,505:INFO:Course faculties:
+2022-04-16 00:55:56,538:INFO:loadCourseTable method called
+2022-04-16 00:55:56,589:INFO:127.0.0.1 - - [16/Apr/2022 00:55:56] "POST /courses HTTP/1.1" 200 -
+2022-04-16 00:55:56,722:INFO:127.0.0.1 - - [16/Apr/2022 00:55:56] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:55:56,726:INFO:127.0.0.1 - - [16/Apr/2022 00:55:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:56:53,983:INFO:Course curriculums:
+2022-04-16 00:56:53,983:INFO:Course faculties:
+2022-04-16 00:57:15,570:INFO:Going to insert faculty details into Database
+2022-04-16 00:57:15,571:INFO:loadFacultyTable method called
+2022-04-16 00:57:15,617:INFO:Going to insert faculty details into Database
+2022-04-16 00:57:15,618:INFO:loadFacultyTable method called
+2022-04-16 00:57:15,694:INFO:Going to insert faculty details into Database
+2022-04-16 00:57:15,694:INFO:loadFacultyTable method called
+2022-04-16 00:57:15,776:INFO:Going to insert faculty details into Database
+2022-04-16 00:57:15,777:INFO:loadFacultyTable method called
+2022-04-16 00:57:15,835:INFO:Going to insert faculty details into Database
+2022-04-16 00:57:15,836:INFO:loadFacultyTable method called
+2022-04-16 00:57:15,928:INFO:Course curriculums:
+2022-04-16 00:57:17,658:INFO:Course faculties:
+2022-04-16 00:57:17,750:INFO:loadCurriculumTable method called
+2022-04-16 00:57:20,552:INFO:Course curriculums:
+2022-04-16 00:57:22,435:INFO:Course faculties:
+2022-04-16 00:57:22,557:INFO:loadCourseTable method called
+2022-04-16 00:57:22,616:INFO:127.0.0.1 - - [16/Apr/2022 00:57:22] "POST /courses HTTP/1.1" 200 -
+2022-04-16 00:57:22,683:INFO:127.0.0.1 - - [16/Apr/2022 00:57:22] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:57:22,687:INFO:127.0.0.1 - - [16/Apr/2022 00:57:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:58:05,849:INFO:Course curriculums:
+2022-04-16 00:58:05,850:INFO:Course faculties:
+2022-04-16 00:58:27,937:INFO:Going to insert faculty details into Database
+2022-04-16 00:58:27,937:INFO:loadFacultyTable method called
+2022-04-16 00:58:28,000:INFO:Going to insert faculty details into Database
+2022-04-16 00:58:28,000:INFO:loadFacultyTable method called
+2022-04-16 00:58:28,059:INFO:Going to insert faculty details into Database
+2022-04-16 00:58:28,060:INFO:loadFacultyTable method called
+2022-04-16 00:58:28,118:INFO:Going to insert faculty details into Database
+2022-04-16 00:58:28,119:INFO:loadFacultyTable method called
+2022-04-16 00:58:28,209:INFO:Course curriculums:
+2022-04-16 00:58:29,831:INFO:Course faculties:
+2022-04-16 00:58:29,905:INFO:loadCurriculumTable method called
+2022-04-16 00:58:32,901:INFO:Course curriculums:
+2022-04-16 00:58:34,800:INFO:Course faculties:
+2022-04-16 00:58:34,892:INFO:loadCourseTable method called
+2022-04-16 00:58:34,933:INFO:127.0.0.1 - - [16/Apr/2022 00:58:34] "POST /courses HTTP/1.1" 200 -
+2022-04-16 00:58:35,025:INFO:127.0.0.1 - - [16/Apr/2022 00:58:35] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:58:35,032:INFO:127.0.0.1 - - [16/Apr/2022 00:58:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:58:56,363:INFO:Course curriculums:
+2022-04-16 00:58:56,364:INFO:Course faculties:
+2022-04-16 00:59:15,272:INFO:Going to insert faculty details into Database
+2022-04-16 00:59:15,272:INFO:loadFacultyTable method called
+2022-04-16 00:59:15,321:INFO:Going to insert faculty details into Database
+2022-04-16 00:59:15,321:INFO:loadFacultyTable method called
+2022-04-16 00:59:15,408:INFO:Course curriculums:
+2022-04-16 00:59:17,238:INFO:Course faculties:
+2022-04-16 00:59:17,296:INFO:loadCurriculumTable method called
+2022-04-16 00:59:21,393:INFO:Course curriculums:
+2022-04-16 00:59:23,266:INFO:Course faculties:
+2022-04-16 00:59:23,326:INFO:loadCourseTable method called
+2022-04-16 00:59:23,367:INFO:127.0.0.1 - - [16/Apr/2022 00:59:23] "POST /courses HTTP/1.1" 200 -
+2022-04-16 00:59:23,428:INFO:127.0.0.1 - - [16/Apr/2022 00:59:23] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 00:59:23,432:INFO:127.0.0.1 - - [16/Apr/2022 00:59:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 00:59:35,913:INFO:Course curriculums:
+2022-04-16 00:59:35,913:INFO:Course faculties:
+2022-04-16 01:00:01,865:INFO:Going to insert faculty details into Database
+2022-04-16 01:00:01,865:INFO:loadFacultyTable method called
+2022-04-16 01:00:01,948:INFO:Going to insert faculty details into Database
+2022-04-16 01:00:01,949:INFO:loadFacultyTable method called
+2022-04-16 01:00:02,010:INFO:Going to insert faculty details into Database
+2022-04-16 01:00:02,010:INFO:loadFacultyTable method called
+2022-04-16 01:00:02,122:INFO:Course curriculums:
+2022-04-16 01:00:04,221:INFO:Course faculties:
+2022-04-16 01:00:04,292:INFO:loadCurriculumTable method called
+2022-04-16 01:00:08,178:INFO:Course curriculums:
+2022-04-16 01:00:10,012:INFO:Course faculties:
+2022-04-16 01:00:10,087:INFO:loadCourseTable method called
+2022-04-16 01:00:10,144:INFO:127.0.0.1 - - [16/Apr/2022 01:00:10] "POST /courses HTTP/1.1" 200 -
+2022-04-16 01:00:10,240:INFO:127.0.0.1 - - [16/Apr/2022 01:00:10] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 01:00:10,244:INFO:127.0.0.1 - - [16/Apr/2022 01:00:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 01:00:22,543:INFO:Course curriculums:
+2022-04-16 01:00:22,543:INFO:Course faculties:
+2022-04-16 01:00:40,140:INFO:Going to insert faculty details into Database
+2022-04-16 01:00:40,140:INFO:loadFacultyTable method called
+2022-04-16 01:00:40,225:INFO:Course curriculums:
+2022-04-16 01:00:40,429:INFO:Course faculties:
+2022-04-16 01:00:40,455:INFO:loadCurriculumTable method called
+2022-04-16 01:00:40,933:INFO:Course curriculums:
+2022-04-16 01:00:41,117:INFO:Course faculties:
+2022-04-16 01:00:41,134:INFO:loadCourseTable method called
+2022-04-16 01:00:41,185:INFO:127.0.0.1 - - [16/Apr/2022 01:00:41] "POST /courses HTTP/1.1" 200 -
+2022-04-16 01:00:41,449:INFO:127.0.0.1 - - [16/Apr/2022 01:00:41] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 01:00:41,454:INFO:127.0.0.1 - - [16/Apr/2022 01:00:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 01:01:43,795:INFO:Going to insert sub topics into Database
+2022-04-16 01:01:43,796:INFO:loadSubtopicTable method called
+2022-04-16 01:01:44,039:INFO:127.0.0.1 - - [16/Apr/2022 01:01:44] "POST /subtopics HTTP/1.1" 200 -
+2022-04-16 01:01:44,225:INFO:127.0.0.1 - - [16/Apr/2022 01:01:44] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 01:01:44,233:INFO:127.0.0.1 - - [16/Apr/2022 01:01:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 01:02:19,714:INFO:Course curriculums:
+2022-04-16 01:02:19,715:INFO:Course faculties:
+2022-04-16 01:02:34,941:INFO:Course curriculums:
+2022-04-16 01:02:34,996:INFO:Course faculties:
+2022-04-16 01:02:35,007:INFO:loadCurriculumTable method called
+2022-04-16 01:02:35,176:INFO:Course curriculums:
+2022-04-16 01:02:35,245:INFO:Course faculties:
+2022-04-16 01:02:35,255:INFO:loadCourseTable method called
+2022-04-16 01:02:35,304:INFO:127.0.0.1 - - [16/Apr/2022 01:02:35] "POST /courses HTTP/1.1" 200 -
+2022-04-16 01:02:35,419:INFO:127.0.0.1 - - [16/Apr/2022 01:02:35] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 01:02:35,430:INFO:127.0.0.1 - - [16/Apr/2022 01:02:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 01:03:12,790:INFO:Course curriculums:
+2022-04-16 01:03:12,790:INFO:Course faculties:
+2022-04-16 01:03:29,568:INFO:Going to insert faculty details into Database
+2022-04-16 01:03:29,568:INFO:loadFacultyTable method called
+2022-04-16 01:03:29,673:INFO:Course curriculums:
+2022-04-16 01:03:29,969:INFO:Course faculties:
+2022-04-16 01:03:29,997:INFO:loadCurriculumTable method called
+2022-04-16 01:03:30,706:INFO:Course curriculums:
+2022-04-16 01:03:30,957:INFO:Course faculties:
+2022-04-16 01:03:30,987:INFO:loadCourseTable method called
+2022-04-16 01:03:31,034:INFO:127.0.0.1 - - [16/Apr/2022 01:03:31] "POST /courses HTTP/1.1" 200 -
+2022-04-16 01:03:31,150:INFO:127.0.0.1 - - [16/Apr/2022 01:03:31] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 01:03:31,156:INFO:127.0.0.1 - - [16/Apr/2022 01:03:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 01:04:28,970:INFO:Course curriculums:
+2022-04-16 01:04:28,970:INFO:Course faculties:
+2022-04-16 01:04:44,594:INFO:Going to insert faculty details into Database
+2022-04-16 01:04:44,595:INFO:loadFacultyTable method called
+2022-04-16 01:04:44,706:INFO:Course curriculums:
+2022-04-16 01:04:44,853:INFO:Course faculties:
+2022-04-16 01:04:44,875:INFO:loadCurriculumTable method called
+2022-04-16 01:04:45,200:INFO:Course curriculums:
+2022-04-16 01:04:45,353:INFO:Course faculties:
+2022-04-16 01:04:45,386:INFO:loadCourseTable method called
+2022-04-16 01:04:45,433:INFO:127.0.0.1 - - [16/Apr/2022 01:04:45] "POST /courses HTTP/1.1" 200 -
+2022-04-16 01:04:45,544:INFO:127.0.0.1 - - [16/Apr/2022 01:04:45] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 01:04:45,550:INFO:127.0.0.1 - - [16/Apr/2022 01:04:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 01:04:59,103:INFO:Course curriculums:
+2022-04-16 01:04:59,104:INFO:Course faculties:
+2022-04-16 01:05:14,792:INFO:Going to insert faculty details into Database
+2022-04-16 01:05:14,793:INFO:loadFacultyTable method called
+2022-04-16 01:05:14,886:INFO:Course curriculums:
+2022-04-16 01:05:15,005:INFO:Course faculties:
+2022-04-16 01:05:15,024:INFO:loadCurriculumTable method called
+2022-04-16 01:05:15,309:INFO:Course curriculums:
+2022-04-16 01:05:15,488:INFO:Course faculties:
+2022-04-16 01:05:15,513:INFO:loadCourseTable method called
+2022-04-16 01:05:15,556:INFO:127.0.0.1 - - [16/Apr/2022 01:05:15] "POST /courses HTTP/1.1" 200 -
+2022-04-16 01:05:15,654:INFO:127.0.0.1 - - [16/Apr/2022 01:05:15] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 01:05:15,660:INFO:127.0.0.1 - - [16/Apr/2022 01:05:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 01:05:20,995:INFO:Course curriculums:
+2022-04-16 01:05:20,996:INFO:Course faculties:
+2022-04-16 01:05:39,423:INFO:Going to insert faculty details into Database
+2022-04-16 01:05:39,423:INFO:loadFacultyTable method called
+2022-04-16 01:05:39,526:INFO:Course curriculums:
+2022-04-16 01:05:39,996:INFO:Course faculties:
+2022-04-16 01:05:40,029:INFO:loadCurriculumTable method called
+2022-04-16 01:05:41,017:INFO:Course curriculums:
+2022-04-16 01:05:41,517:INFO:Course faculties:
+2022-04-16 01:05:41,529:INFO:loadCourseTable method called
+2022-04-16 01:05:41,579:INFO:127.0.0.1 - - [16/Apr/2022 01:05:41] "POST /courses HTTP/1.1" 200 -
+2022-04-16 01:05:41,826:INFO:127.0.0.1 - - [16/Apr/2022 01:05:41] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 01:05:41,832:INFO:127.0.0.1 - - [16/Apr/2022 01:05:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 01:05:52,728:INFO:Course curriculums:
+2022-04-16 01:05:52,728:INFO:Course faculties:
+2022-04-16 01:06:11,555:INFO:Going to insert faculty details into Database
+2022-04-16 01:06:11,555:INFO:loadFacultyTable method called
+2022-04-16 01:06:11,646:INFO:Course curriculums:
+2022-04-16 01:06:12,007:INFO:Course faculties:
+2022-04-16 01:06:12,038:INFO:loadCurriculumTable method called
+2022-04-16 01:06:12,971:INFO:Course curriculums:
+2022-04-16 01:06:13,330:INFO:Course faculties:
+2022-04-16 01:06:13,357:INFO:loadCourseTable method called
+2022-04-16 01:06:13,404:INFO:127.0.0.1 - - [16/Apr/2022 01:06:13] "POST /courses HTTP/1.1" 200 -
+2022-04-16 01:06:13,560:INFO:127.0.0.1 - - [16/Apr/2022 01:06:13] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 01:06:13,564:INFO:127.0.0.1 - - [16/Apr/2022 01:06:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 01:07:06,110:INFO:Going to insert sub topics into Database
+2022-04-16 01:07:06,110:INFO:loadSubtopicTable method called
+2022-04-16 01:07:06,151:INFO:127.0.0.1 - - [16/Apr/2022 01:07:06] "POST /subtopics HTTP/1.1" 200 -
+2022-04-16 01:07:06,281:INFO:127.0.0.1 - - [16/Apr/2022 01:07:06] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 01:07:06,289:INFO:127.0.0.1 - - [16/Apr/2022 01:07:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-04-16 01:07:08,464:INFO:Course curriculums:
+2022-04-16 01:07:08,464:INFO:Course faculties:
+2022-04-16 01:07:25,426:INFO:Course curriculums:
+2022-04-16 01:07:25,790:INFO:Course faculties:
+2022-04-16 01:07:25,808:INFO:loadCurriculumTable method called
+2022-04-16 01:07:26,668:INFO:Course curriculums:
+2022-04-16 01:07:27,009:INFO:Course faculties:
+2022-04-16 01:07:27,012:INFO:loadCourseTable method called
+2022-04-16 01:07:27,060:INFO:127.0.0.1 - - [16/Apr/2022 01:07:27] "POST /courses HTTP/1.1" 200 -
+2022-04-16 01:07:27,216:INFO:127.0.0.1 - - [16/Apr/2022 01:07:27] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-04-16 01:07:27,221:INFO:127.0.0.1 - - [16/Apr/2022 01:07:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

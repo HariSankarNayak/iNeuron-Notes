@@ -1,0 +1,15 @@
+2022-02-01 21:22:05,085 INFO Number of chacolate 5
+2022-02-01 21:22:30,618 INFO Number of chacolate 5
+2022-02-01 21:38:08,866 INFO grans parents provide 5 cacolate
+2022-02-01 21:38:08,866 INFO Number of chacolate 5
+2022-02-01 21:39:23,135 INFO grans parents provide 5 cacolate
+2022-02-01 21:39:23,138 INFO Number of chacolate 5
+2022-02-01 21:39:23,138 INFO parents provide 50 cacolate
+2022-02-01 21:39:32,260 INFO grans parents provide 5 cacolate
+2022-02-01 21:39:32,262 INFO Number of chacolate 5
+2022-02-01 21:39:32,262 INFO parents provide 50 cacolate
+2022-02-01 21:39:32,262 INFO Number of cacolate child get from parents and grandparents is 50
+2022-02-01 21:46:29,540 INFO grans parents provide 5 cacolate
+2022-02-01 21:46:29,542 INFO Number of chacolate 5
+2022-02-01 21:46:29,543 INFO parents provide 50 cacolate
+2022-02-01 21:46:29,543 INFO Number of cacolate child get from parents and grandparents is 50

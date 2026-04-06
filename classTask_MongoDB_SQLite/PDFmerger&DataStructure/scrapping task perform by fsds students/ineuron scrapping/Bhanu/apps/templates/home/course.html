@@ -1,0 +1,204 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Course Details {% endblock %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<div class="pcoded-content">
+    <div class="pcoded-inner-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+            <div class="page-block">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="page-header-title">
+                            <h5 class="m-b-10">Scrapped Data</h5>
+                        </div>
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/"><i class="feather icon-home"></i></a></li>
+                            <li class="breadcrumb-item"><a href="javascript:">Course</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+        <!-- [ Main Content ] start -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header theme-bg-header">
+                        <a href="{{course_url}}" target="_blank"
+                               rel="noopener"><h5>{{ course_data["course-name"] }}</h5></a>
+                    </div>
+                    <div class="card-block">
+                        <p>{{ course_data["course-description"] }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <!-- [ Main Content ] end -->
+        <div class="main-body">
+            <div class="page-wrapper">
+                <!-- [ Curriculum Content ] start -->
+                <div class="row">
+                    <div class="col-xl-8 col-md-6">
+                        <div class="card-header theme-bg-header">
+                            <h4>Course Curriculum</h4>
+                        </div>
+                        <div class="list-group">
+                            {% for topic in course_data["topic-data"]%}
+                            <a class="list-group-item active theme-bg text-white f-12 borderless-anchor">
+                                <h6>{{ topic["topic-name"] }}</h6>
+                            </a>
+                            {% for sub_topic in topic['sub-topic']%}
+                            <a class="list-group-item" href="{{course_url}}" target="_blank"
+                               rel="noopener">{{sub_topic}}</a>
+                            {% endfor %}
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <!--[ course fees section ] start-->
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card daily-sales">
+                            <div class="card-block">
+                                <h6 class="mb-4">Course Fees | Value for Money</h6>
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-9">
+                                        <h3 class="f-w-300 d-flex align-items-center m-b-0"><i
+                                                class="feather icon-tag text-c-green f-30 m-r-10"></i>INR {{ course_data["course-price"] }}</h3>
+                                    </div>
+                                </div>
+                                <div class="m-t-30" style="height: 7px;">
+                                    <div class="progress-c-theme" role="progressbar" style="width: 50%;"
+                                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                        {{timestamp}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--[ course fees section ] end-->
+                </div>
+                <!-- [ Curriculum Content ] end -->
+                <br/>
+
+                <div class="row">
+                    <div class="col-xl-8 col-md-6">
+                        <div class="card Recent-Users">
+                            <div class="card-header theme-bg-header">
+                                <h4>What you'll learn</h4>
+                            </div>
+                            <div class="card-block px-0 py-3">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <tbody>
+                                            {% for learn in course_data["course-learnings"] %}
+                                            <tr class="unread">
+                                                <td>
+                                                    <h6 class="mb-1">{{learn}}</h6>
+                                                </td>
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-md-6">
+                        <div class="card Recent-Users">
+                            <div class="card-header theme-bg-header">
+                                <h4>Requirements</h4>
+                            </div>
+                            <div class="card-block px-0 py-3">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <tbody>
+                                            {% for requirement in course_data["course-requirements"] %}
+                                            <tr class="unread">
+                                                <td>
+                                                    <h6 class="mb-1">{{requirement}}</h6>
+                                                </td>
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-md-6">
+                        <div class="card Recent-Users">
+                            <div class="card-header theme-bg-header">
+                                <h4>Course Features</h4>
+                            </div>
+                            <div class="card-block px-0 py-3">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <tbody>
+                                            {% for feature in course_data["course-features"] %}
+                                            <tr class="unread">
+                                                <td>
+                                                    <h6 class="mb-1">{{feature}}</h6>
+                                                </td>
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-md-6">
+                        <div class="card-header theme-bg-header borderless" >
+                            <h4>Similar Top {{similar_content_count}} Content</h4>
+                        </div>
+                        <div class="card-block px-0 py-3">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col"><h6><b>Content Name</b></h6></th>
+                                        <th scope="col"><h6><b>Checkout Content</b></h6></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for content in similar_content %}
+                                        <tr class="unread">
+                                            <td>
+                                                <h6 class="mb-1">{{ content["course-name"] }}</h6>
+                                            </td>
+                                            <td><a class="label theme-bg text-white f-12"
+                                                    href="{{content['course-url']}}"
+                                                   target="_blank" rel="noopener">View Course</a></td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+<!--                        <div class="list-group text-black">-->
+<!--                            {% for content in similar_content %}-->
+<!--                            <a class="list-group-item active theme-bg-list-content text-black f-16 borderless"-->
+<!--                               href="{{content['course-url']}}">-->
+<!--                                {{ content["course-name"] }}-->
+<!--                            </a>-->
+<!--                            {% endfor %}-->
+<!--                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

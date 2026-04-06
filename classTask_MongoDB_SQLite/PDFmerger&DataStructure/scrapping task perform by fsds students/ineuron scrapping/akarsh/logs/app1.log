@@ -1,0 +1,122 @@
+werkzeug - 2022-04-12 23:40:20,331 - INFO -  * Restarting with stat
+werkzeug - 2022-04-12 23:40:20,920 - WARNING -  * Debugger is active!
+werkzeug - 2022-04-12 23:40:20,926 - INFO -  * Debugger PIN: 508-687-340
+werkzeug - 2022-04-12 23:40:20,955 - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+werkzeug - 2022-04-12 23:40:22,281 - INFO - 127.0.0.1 - - [12/Apr/2022 23:40:22] "GET / HTTP/1.1" 200 -
+werkzeug - 2022-04-12 23:40:22,321 - INFO - 127.0.0.1 - - [12/Apr/2022 23:40:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+werkzeug - 2022-04-12 23:40:22,321 - INFO - 127.0.0.1 - - [12/Apr/2022 23:40:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+root - 2022-04-12 23:40:25,140 - INFO - Connecting to DB
+root - 2022-04-12 23:40:25,341 - INFO - DB connection is successful
+root - 2022-04-12 23:40:26,352 - INFO - Data is already present in the database. So pulling data from DB
+werkzeug - 2022-04-12 23:40:26,761 - INFO - 127.0.0.1 - - [12/Apr/2022 23:40:26] "POST /scrap HTTP/1.1" 200 -
+werkzeug - 2022-04-12 23:40:26,801 - INFO - 127.0.0.1 - - [12/Apr/2022 23:40:26] "[33mGET /style.css HTTP/1.1[0m" 404 -
+werkzeug - 2022-04-12 23:40:26,801 - INFO - 127.0.0.1 - - [12/Apr/2022 23:40:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+werkzeug - 2022-04-12 23:41:31,762 - INFO -  * Restarting with stat
+werkzeug - 2022-04-12 23:41:32,364 - WARNING -  * Debugger is active!
+werkzeug - 2022-04-12 23:41:32,368 - INFO -  * Debugger PIN: 508-687-340
+werkzeug - 2022-04-12 23:41:32,402 - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+werkzeug - 2022-04-12 23:41:33,507 - INFO - 127.0.0.1 - - [12/Apr/2022 23:41:33] "GET / HTTP/1.1" 200 -
+werkzeug - 2022-04-12 23:41:33,537 - INFO - 127.0.0.1 - - [12/Apr/2022 23:41:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+werkzeug - 2022-04-12 23:41:33,541 - INFO - 127.0.0.1 - - [12/Apr/2022 23:41:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+root - 2022-04-12 23:41:36,112 - INFO - Connecting to DB
+root - 2022-04-12 23:41:36,351 - INFO - DB connection is successful
+scrap_data - 2022-04-12 23:41:40,697 - INFO - Data retrieved successfully
+root - 2022-04-12 23:41:46,101 - INFO - Succesfully inserted the data into DB
+werkzeug - 2022-04-12 23:41:46,112 - INFO - 127.0.0.1 - - [12/Apr/2022 23:41:46] "POST /scrap HTTP/1.1" 200 -
+werkzeug - 2022-04-12 23:41:46,132 - INFO - 127.0.0.1 - - [12/Apr/2022 23:41:46] "[33mGET /style.css HTTP/1.1[0m" 404 -
+werkzeug - 2022-04-12 23:41:46,141 - INFO - 127.0.0.1 - - [12/Apr/2022 23:41:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+werkzeug - 2022-04-12 23:41:46,221 - INFO - 127.0.0.1 - - [12/Apr/2022 23:41:46] "[33mGET /style.css HTTP/1.1[0m" 404 -
+werkzeug - 2022-04-13 00:14:05,447 - INFO -  * Restarting with stat
+werkzeug - 2022-04-13 00:14:06,166 - WARNING -  * Debugger is active!
+werkzeug - 2022-04-13 00:14:06,167 - INFO -  * Debugger PIN: 508-687-340
+werkzeug - 2022-04-13 00:14:06,207 - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+werkzeug - 2022-04-13 00:14:09,817 - INFO - 127.0.0.1 - - [13/Apr/2022 00:14:09] "GET / HTTP/1.1" 200 -
+werkzeug - 2022-04-13 00:14:09,868 - INFO - 127.0.0.1 - - [13/Apr/2022 00:14:09] "GET /static/css/main.css HTTP/1.1" 200 -
+werkzeug - 2022-04-13 00:14:09,868 - INFO - 127.0.0.1 - - [13/Apr/2022 00:14:09] "GET /static/css/style.css HTTP/1.1" 200 -
+root - 2022-04-13 00:14:13,520 - INFO - Connecting to DB
+root - 2022-04-13 00:14:13,767 - INFO - DB connection is successful
+scrap_data - 2022-04-13 00:14:16,625 - INFO - Data retrieved successfully
+scrap_data - 2022-04-13 00:14:21,667 - INFO - Successfully Scrapped the data
+root - 2022-04-13 00:14:22,067 - INFO - Succesfully inserted the data into DB
+werkzeug - 2022-04-13 00:14:22,077 - INFO - 127.0.0.1 - - [13/Apr/2022 00:14:22] "POST /scrap HTTP/1.1" 200 -
+werkzeug - 2022-04-13 00:14:22,102 - INFO - 127.0.0.1 - - [13/Apr/2022 00:14:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+werkzeug - 2022-04-13 00:14:22,102 - INFO - 127.0.0.1 - - [13/Apr/2022 00:14:22] "[33mGET /style.css HTTP/1.1[0m" 404 -
+werkzeug - 2022-04-13 10:36:28,249 - INFO -  * Restarting with stat
+werkzeug - 2022-04-13 10:36:28,862 - WARNING -  * Debugger is active!
+werkzeug - 2022-04-13 10:36:28,878 - INFO -  * Debugger PIN: 508-687-340
+werkzeug - 2022-04-13 10:36:28,922 - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+werkzeug - 2022-04-13 10:36:30,459 - INFO - 127.0.0.1 - - [13/Apr/2022 10:36:30] "GET / HTTP/1.1" 200 -
+werkzeug - 2022-04-13 10:36:30,511 - INFO - 127.0.0.1 - - [13/Apr/2022 10:36:30] "GET /static/css/main.css HTTP/1.1" 200 -
+werkzeug - 2022-04-13 10:36:30,513 - INFO - 127.0.0.1 - - [13/Apr/2022 10:36:30] "GET /static/css/style.css HTTP/1.1" 200 -
+werkzeug - 2022-04-13 10:36:30,557 - INFO - 127.0.0.1 - - [13/Apr/2022 10:36:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+root - 2022-04-13 10:36:37,422 - INFO - Connecting to DB
+root - 2022-04-13 10:36:37,659 - INFO - DB connection is successful
+root - 2022-04-13 10:36:38,582 - INFO - Data is already present in the database. So pulling data from DB
+werkzeug - 2022-04-13 10:36:38,974 - INFO - 127.0.0.1 - - [13/Apr/2022 10:36:38] "POST /scrap HTTP/1.1" 200 -
+werkzeug - 2022-04-13 10:36:39,003 - INFO - 127.0.0.1 - - [13/Apr/2022 10:36:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+werkzeug - 2022-04-13 10:36:39,004 - INFO - 127.0.0.1 - - [13/Apr/2022 10:36:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+werkzeug - 2022-04-13 10:37:21,772 - INFO -  * Restarting with stat
+werkzeug - 2022-04-13 10:37:22,438 - WARNING -  * Debugger is active!
+werkzeug - 2022-04-13 10:37:22,442 - INFO -  * Debugger PIN: 508-687-340
+werkzeug - 2022-04-13 10:37:22,474 - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+werkzeug - 2022-04-13 10:37:23,680 - INFO - 127.0.0.1 - - [13/Apr/2022 10:37:23] "GET / HTTP/1.1" 200 -
+werkzeug - 2022-04-13 10:37:23,729 - INFO - 127.0.0.1 - - [13/Apr/2022 10:37:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+werkzeug - 2022-04-13 10:37:23,729 - INFO - 127.0.0.1 - - [13/Apr/2022 10:37:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+werkzeug - 2022-04-13 10:38:15,508 - INFO -  * Restarting with stat
+werkzeug - 2022-04-13 10:38:16,092 - WARNING -  * Debugger is active!
+werkzeug - 2022-04-13 10:38:16,096 - INFO -  * Debugger PIN: 508-687-340
+werkzeug - 2022-04-13 10:38:16,132 - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+werkzeug - 2022-04-13 10:38:17,364 - INFO - 127.0.0.1 - - [13/Apr/2022 10:38:17] "GET / HTTP/1.1" 200 -
+werkzeug - 2022-04-13 10:38:17,393 - INFO - 127.0.0.1 - - [13/Apr/2022 10:38:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+werkzeug - 2022-04-13 10:38:17,393 - INFO - 127.0.0.1 - - [13/Apr/2022 10:38:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+root - 2022-04-13 10:38:21,693 - INFO - Connecting to DB
+root - 2022-04-13 10:38:21,923 - INFO - DB connection is successful
+root - 2022-04-13 10:38:22,978 - INFO - Data is already present in the database. So pulling data from DB
+werkzeug - 2022-04-13 10:38:23,384 - INFO - 127.0.0.1 - - [13/Apr/2022 10:38:23] "POST /scrap HTTP/1.1" 200 -
+werkzeug - 2022-04-13 10:38:23,424 - INFO - 127.0.0.1 - - [13/Apr/2022 10:38:23] "[33mGET /style.css HTTP/1.1[0m" 404 -
+werkzeug - 2022-04-13 10:38:23,428 - INFO - 127.0.0.1 - - [13/Apr/2022 10:38:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+werkzeug - 2022-04-13 10:55:55,477 - INFO -  * Restarting with stat
+werkzeug - 2022-04-13 10:55:56,326 - WARNING -  * Debugger is active!
+werkzeug - 2022-04-13 10:55:56,335 - INFO -  * Debugger PIN: 508-687-340
+werkzeug - 2022-04-13 10:55:56,372 - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+werkzeug - 2022-04-13 10:55:57,875 - INFO - 127.0.0.1 - - [13/Apr/2022 10:55:57] "GET / HTTP/1.1" 200 -
+werkzeug - 2022-04-13 10:55:57,910 - INFO - 127.0.0.1 - - [13/Apr/2022 10:55:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+werkzeug - 2022-04-13 10:55:57,911 - INFO - 127.0.0.1 - - [13/Apr/2022 10:55:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+root - 2022-04-13 10:56:03,545 - INFO - Connecting to DB
+root - 2022-04-13 10:56:03,785 - INFO - DB connection is successful
+scrap_data - 2022-04-13 10:56:08,270 - INFO - Data retrieved successfully
+scrap_data - 2022-04-13 11:07:04,297 - INFO - Failed to scrap the data
+scrap_data - 2022-04-13 11:07:04,297 - ERROR - 'pricing'
+werkzeug - 2022-04-13 11:07:04,499 - INFO - 127.0.0.1 - - [13/Apr/2022 11:07:04] "POST /scrap HTTP/1.1" 200 -
+werkzeug - 2022-04-13 13:03:45,276 - INFO -  * Detected change in 'D:\\Projects\\Ineuron_web_scrapping-1\\scrap_data.py', reloading
+werkzeug - 2022-04-13 13:03:45,416 - INFO -  * Restarting with stat
+werkzeug - 2022-04-13 13:03:46,324 - WARNING -  * Debugger is active!
+werkzeug - 2022-04-13 13:03:46,332 - INFO -  * Debugger PIN: 508-687-340
+werkzeug - 2022-04-13 13:03:46,367 - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+werkzeug - 2022-04-13 13:09:19,337 - INFO -  * Detected change in 'D:\\Projects\\Ineuron_web_scrapping-1\\scrap_data.py', reloading
+werkzeug - 2022-04-13 13:09:19,380 - INFO -  * Restarting with stat
+werkzeug - 2022-04-13 13:09:20,123 - WARNING -  * Debugger is active!
+werkzeug - 2022-04-13 13:09:20,131 - INFO -  * Debugger PIN: 508-687-340
+werkzeug - 2022-04-13 13:09:20,166 - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+werkzeug - 2022-04-13 13:10:14,160 - INFO -  * Detected change in 'D:\\Projects\\Ineuron_web_scrapping-1\\scrap_data.py', reloading
+werkzeug - 2022-04-13 13:10:14,264 - INFO -  * Restarting with stat
+werkzeug - 2022-04-13 13:10:14,989 - WARNING -  * Debugger is active!
+werkzeug - 2022-04-13 13:10:14,997 - INFO -  * Debugger PIN: 508-687-340
+werkzeug - 2022-04-13 13:10:15,040 - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+werkzeug - 2022-04-13 13:10:49,681 - INFO -  * Restarting with stat
+werkzeug - 2022-04-13 13:10:50,277 - WARNING -  * Debugger is active!
+werkzeug - 2022-04-13 13:10:50,280 - INFO -  * Debugger PIN: 508-687-340
+werkzeug - 2022-04-13 13:10:50,316 - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+werkzeug - 2022-04-13 13:29:34,473 - INFO -  * Restarting with stat
+werkzeug - 2022-04-13 13:29:35,476 - WARNING -  * Debugger is active!
+werkzeug - 2022-04-13 13:29:35,492 - INFO -  * Debugger PIN: 508-687-340
+werkzeug - 2022-04-13 13:29:35,538 - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+werkzeug - 2022-04-13 13:29:37,101 - INFO - 127.0.0.1 - - [13/Apr/2022 13:29:37] "GET / HTTP/1.1" 200 -
+werkzeug - 2022-04-13 13:29:37,149 - INFO - 127.0.0.1 - - [13/Apr/2022 13:29:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+werkzeug - 2022-04-13 13:29:37,149 - INFO - 127.0.0.1 - - [13/Apr/2022 13:29:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+root - 2022-04-13 13:29:43,086 - INFO - Connecting to DB
+root - 2022-04-13 13:29:43,298 - INFO - DB connection is successful
+scrap_data - 2022-04-13 13:29:46,069 - INFO - Data retrieved successfully
+scrap_data - 2022-04-13 13:36:21,588 - INFO - Failed to scrap the data
+scrap_data - 2022-04-13 13:36:21,588 - ERROR - 'pricing'
+werkzeug - 2022-04-13 13:36:21,689 - INFO - 127.0.0.1 - - [13/Apr/2022 13:36:21] "POST /scrap HTTP/1.1" 200 -

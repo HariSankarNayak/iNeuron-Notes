@@ -1,0 +1,220 @@
+2022-04-15 21:05:26,791 INFO connect mongodb with some insecurity
+2022-04-15 21:05:47,114 INFO Successfully connected with mongodb
+2022-04-15 21:05:47,115 INFO try to create db ineuron_data
+2022-04-15 21:05:47,115 INFO check db exist ineuron_data
+2022-04-15 21:05:47,903 INFO Already exist db ineuron_data
+2022-04-15 21:05:47,903 INFO try to connecting db ineuron_data
+2022-04-15 21:05:47,904 INFO check db exist ineuron_data
+2022-04-15 21:05:47,983 INFO Successfully connected with db ineuron_data
+2022-04-15 21:05:47,983 INFO try to create collection ineuron_collection
+2022-04-15 21:05:48,058 INFO list of collection ['ineuron_collection']
+2022-04-15 21:05:48,140 INFO avail this collection ineuron_collection
+2022-04-15 21:05:48,140 INFO Already exist collection ineuron_collection
+2022-04-15 21:05:48,140 INFO try to connect collection ineuron_collection
+2022-04-15 21:05:48,218 INFO list of collection ['ineuron_collection']
+2022-04-15 21:05:48,298 INFO avail this collection ineuron_collection
+2022-04-15 21:05:48,314 INFO  * Running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-04-15 21:05:48,316 INFO  * Restarting with stat
+2022-04-15 21:05:49,497 INFO connect mongodb with some insecurity
+2022-04-15 21:06:09,724 INFO Successfully connected with mongodb
+2022-04-15 21:06:09,724 INFO try to create db ineuron_data
+2022-04-15 21:06:09,724 INFO check db exist ineuron_data
+2022-04-15 21:06:10,521 INFO Already exist db ineuron_data
+2022-04-15 21:06:10,521 INFO try to connecting db ineuron_data
+2022-04-15 21:06:10,521 INFO check db exist ineuron_data
+2022-04-15 21:06:10,601 INFO Successfully connected with db ineuron_data
+2022-04-15 21:06:10,601 INFO try to create collection ineuron_collection
+2022-04-15 21:06:10,677 INFO list of collection ['ineuron_collection']
+2022-04-15 21:06:10,757 INFO avail this collection ineuron_collection
+2022-04-15 21:06:10,758 INFO Already exist collection ineuron_collection
+2022-04-15 21:06:10,758 INFO try to connect collection ineuron_collection
+2022-04-15 21:06:10,837 INFO list of collection ['ineuron_collection']
+2022-04-15 21:06:10,917 INFO avail this collection ineuron_collection
+2022-04-15 21:06:10,929 WARNING  * Debugger is active!
+2022-04-15 21:06:10,934 INFO  * Debugger PIN: 783-040-375
+2022-04-15 21:06:10,947 INFO connect mongodb with some insecurity
+2022-04-15 21:06:31,169 INFO Successfully connected with mongodb
+2022-04-15 21:06:31,170 INFO try to create db ineuron_data
+2022-04-15 21:06:31,170 INFO check db exist ineuron_data
+2022-04-15 21:06:31,963 INFO Already exist db ineuron_data
+2022-04-15 21:06:31,963 INFO try to connecting db ineuron_data
+2022-04-15 21:06:31,963 INFO check db exist ineuron_data
+2022-04-15 21:06:32,044 INFO Successfully connected with db ineuron_data
+2022-04-15 21:06:32,044 INFO try to connect collection ineuron_collection
+2022-04-15 21:06:32,118 INFO list of collection ['ineuron_collection']
+2022-04-15 21:06:32,229 INFO avail this collection ineuron_collection
+2022-04-15 21:06:32,321 INFO data sample showing: {'_id': ObjectId('6258e1469bf680bb66f53b5e'), 'link': '/Digital-Marketing-Community', 'category': 'Community Courses ', 'subcategory': ' Digital Marketing Community', 'name': 'Digital Marketing Community', 'description': 'Grow your digital marketing results faster through the power of growth hacking! In this industry-leading course, you’ll discover the extraordinary benefits of digital metrics, including lean analytics, web traffic, digital conversion funnels, and LTV and CAC calculations.', 'features': ['Course for pre launch business owners who have no idea where to get started', 'For starting a freelancing techniques in Marketing field'], 'learnings': ['From Scratch grow business online', 'Work from home as a Freelancer Marketer', 'Make money as an Affiliate Marketer'], 'requirements': ['No Experience required', 'Computer with Internet connectivity', 'Basic Programming understanding'], 'syllabus': {'Digital Marketing Class 1 - Introduction to Digital Marketing': ['Introduction Preview'], 'Digital Marketing Class 2 - Basics of Websites, Selecting Domain, and Activating Free Hosting': [], 'Digital Marketing Class 3 - Plugins and Integrations (Part - 1)': [], 'Digital Marketing Class 4 - Plugins and Integrations (Part - 2)': [], 'Digital Marketing Third Party Website Integrations Google and Bing': [], 'Digital Marketing - Market Research - With No Tools': [], 'Digital Marketing 6.2 - Market Research - No Tools': [], 'Digital Marketing Class 7.1 - Introduction to SEO and Basic Research': [], 'Digital Marketing Class 7.2 - Research With Free Tools - Google Trends': [], 'Digital Marketing 8 1 Free Tool': [], 'Digital Marketing Class 8.2 - Paid Tools': [], 'Digital Marketing Class 9.1 - Intro to Google Analytics': [], 'Digital Marketing Class 9.2 - All Tabs of Google Analytics': [], 'Digital Marketing Class 10.1 - Goals, Reports, Dashboard': [], 'Digital Marketing Class 10.2 - Search Console': [], 'Digital Marketing Class 11.1 - Website Optimization Tools': [], 'Digital Marketing Class 11.2 - Email Marketing': [], 'Digital Marketing Conclusion': []}, 'mentors': [{'name': 'Ankur Khanna', 'desc': 'Highly-motivated, energetic and dynamic Digital Marketing Mentor and Assistant Professor having 7+ years of experience in Digital Marketing Industry. Strong practical knowledge of different digital marketing tools aimed at meeting the needs of diverse groups of learners. ', 'social_links': ['https://linkedin.com/in/aankurkhanna', 'https://www.facebook.com/khanna.ankur', 'https://www.youtube.com/channel/UCzyrjUDzMpuwN1H53dq0TAQ']}]}
+2022-04-15 21:06:32,344 INFO 127.0.0.1 - - [15/Apr/2022 21:06:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-04-15 21:06:32,483 INFO 127.0.0.1 - - [15/Apr/2022 21:06:32] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-15 21:06:32,487 INFO 127.0.0.1 - - [15/Apr/2022 21:06:32] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-15 21:06:32,512 INFO 127.0.0.1 - - [15/Apr/2022 21:06:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-15 21:06:32,612 INFO 127.0.0.1 - - [15/Apr/2022 21:06:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-15 21:09:02,462 INFO connect mongodb with some insecurity
+2022-04-15 21:09:22,733 INFO Successfully connected with mongodb
+2022-04-15 21:09:22,733 INFO try to create db ineuron_data
+2022-04-15 21:09:22,733 INFO check db exist ineuron_data
+2022-04-15 21:09:23,509 INFO Already exist db ineuron_data
+2022-04-15 21:09:23,509 INFO try to connecting db ineuron_data
+2022-04-15 21:09:23,510 INFO check db exist ineuron_data
+2022-04-15 21:09:23,589 INFO Successfully connected with db ineuron_data
+2022-04-15 21:09:23,589 INFO try to create collection ineuron_collection
+2022-04-15 21:09:23,665 INFO list of collection ['ineuron_collection']
+2022-04-15 21:09:23,745 INFO avail this collection ineuron_collection
+2022-04-15 21:09:23,745 INFO Already exist collection ineuron_collection
+2022-04-15 21:09:23,746 INFO try to connect collection ineuron_collection
+2022-04-15 21:09:23,826 INFO list of collection ['ineuron_collection']
+2022-04-15 21:09:23,905 INFO avail this collection ineuron_collection
+2022-04-15 21:09:23,921 INFO  * Running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-04-15 21:09:23,923 INFO  * Restarting with stat
+2022-04-15 21:09:25,040 INFO connect mongodb with some insecurity
+2022-04-15 21:09:45,243 INFO Successfully connected with mongodb
+2022-04-15 21:09:45,243 INFO try to create db ineuron_data
+2022-04-15 21:09:45,243 INFO check db exist ineuron_data
+2022-04-15 21:09:46,053 INFO Already exist db ineuron_data
+2022-04-15 21:09:46,054 INFO try to connecting db ineuron_data
+2022-04-15 21:09:46,054 INFO check db exist ineuron_data
+2022-04-15 21:09:46,148 INFO Successfully connected with db ineuron_data
+2022-04-15 21:09:46,149 INFO try to create collection ineuron_collection
+2022-04-15 21:09:46,237 INFO list of collection ['ineuron_collection']
+2022-04-15 21:09:46,317 INFO avail this collection ineuron_collection
+2022-04-15 21:09:46,317 INFO Already exist collection ineuron_collection
+2022-04-15 21:09:46,317 INFO try to connect collection ineuron_collection
+2022-04-15 21:09:46,405 INFO list of collection ['ineuron_collection']
+2022-04-15 21:09:46,499 INFO avail this collection ineuron_collection
+2022-04-15 21:09:46,512 WARNING  * Debugger is active!
+2022-04-15 21:09:46,518 INFO  * Debugger PIN: 783-040-375
+2022-04-15 21:09:46,615 INFO data sample showing: {'_id': ObjectId('6258e1469bf680bb66f53b5e'), 'link': '/Digital-Marketing-Community', 'category': 'Community Courses ', 'subcategory': ' Digital Marketing Community', 'name': 'Digital Marketing Community', 'description': 'Grow your digital marketing results faster through the power of growth hacking! In this industry-leading course, you’ll discover the extraordinary benefits of digital metrics, including lean analytics, web traffic, digital conversion funnels, and LTV and CAC calculations.', 'features': ['Course for pre launch business owners who have no idea where to get started', 'For starting a freelancing techniques in Marketing field'], 'learnings': ['From Scratch grow business online', 'Work from home as a Freelancer Marketer', 'Make money as an Affiliate Marketer'], 'requirements': ['No Experience required', 'Computer with Internet connectivity', 'Basic Programming understanding'], 'syllabus': {'Digital Marketing Class 1 - Introduction to Digital Marketing': ['Introduction Preview'], 'Digital Marketing Class 2 - Basics of Websites, Selecting Domain, and Activating Free Hosting': [], 'Digital Marketing Class 3 - Plugins and Integrations (Part - 1)': [], 'Digital Marketing Class 4 - Plugins and Integrations (Part - 2)': [], 'Digital Marketing Third Party Website Integrations Google and Bing': [], 'Digital Marketing - Market Research - With No Tools': [], 'Digital Marketing 6.2 - Market Research - No Tools': [], 'Digital Marketing Class 7.1 - Introduction to SEO and Basic Research': [], 'Digital Marketing Class 7.2 - Research With Free Tools - Google Trends': [], 'Digital Marketing 8 1 Free Tool': [], 'Digital Marketing Class 8.2 - Paid Tools': [], 'Digital Marketing Class 9.1 - Intro to Google Analytics': [], 'Digital Marketing Class 9.2 - All Tabs of Google Analytics': [], 'Digital Marketing Class 10.1 - Goals, Reports, Dashboard': [], 'Digital Marketing Class 10.2 - Search Console': [], 'Digital Marketing Class 11.1 - Website Optimization Tools': [], 'Digital Marketing Class 11.2 - Email Marketing': [], 'Digital Marketing Conclusion': []}, 'mentors': [{'name': 'Ankur Khanna', 'desc': 'Highly-motivated, energetic and dynamic Digital Marketing Mentor and Assistant Professor having 7+ years of experience in Digital Marketing Industry. Strong practical knowledge of different digital marketing tools aimed at meeting the needs of diverse groups of learners. ', 'social_links': ['https://linkedin.com/in/aankurkhanna', 'https://www.facebook.com/khanna.ankur', 'https://www.youtube.com/channel/UCzyrjUDzMpuwN1H53dq0TAQ']}]}
+2022-04-15 21:09:48,568 INFO 127.0.0.1 - - [15/Apr/2022 21:09:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-04-15 21:09:48,691 INFO 127.0.0.1 - - [15/Apr/2022 21:09:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-15 21:09:48,695 INFO 127.0.0.1 - - [15/Apr/2022 21:09:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-15 21:09:48,716 INFO 127.0.0.1 - - [15/Apr/2022 21:09:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-15 21:09:48,756 INFO 127.0.0.1 - - [15/Apr/2022 21:09:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-15 21:12:00,937 INFO  * Detected change in 'F:\\python project\\ineuronscrapper\\MyApp.py', reloading
+2022-04-15 21:12:01,428 INFO  * Restarting with stat
+2022-04-15 21:12:02,708 INFO connect mongodb with some insecurity
+2022-04-15 21:12:22,991 INFO Successfully connected with mongodb
+2022-04-15 21:12:22,991 INFO try to create db ineuron_data
+2022-04-15 21:12:22,991 INFO check db exist ineuron_data
+2022-04-15 21:12:23,798 INFO Already exist db ineuron_data
+2022-04-15 21:12:23,798 INFO try to connecting db ineuron_data
+2022-04-15 21:12:23,798 INFO check db exist ineuron_data
+2022-04-15 21:12:23,876 INFO Successfully connected with db ineuron_data
+2022-04-15 21:12:23,876 INFO try to create collection ineuron_collection
+2022-04-15 21:12:23,953 INFO list of collection ['ineuron_collection']
+2022-04-15 21:12:24,035 INFO avail this collection ineuron_collection
+2022-04-15 21:12:24,035 INFO Already exist collection ineuron_collection
+2022-04-15 21:12:24,036 INFO try to connect collection ineuron_collection
+2022-04-15 21:12:24,113 INFO list of collection ['ineuron_collection']
+2022-04-15 21:12:24,215 INFO avail this collection ineuron_collection
+2022-04-15 21:12:24,228 WARNING  * Debugger is active!
+2022-04-15 21:12:24,234 INFO  * Debugger PIN: 783-040-375
+2022-04-15 21:12:24,333 INFO data sample showing: {'_id': ObjectId('6258e1469bf680bb66f53b5e'), 'link': '/Digital-Marketing-Community', 'category': 'Community Courses ', 'subcategory': ' Digital Marketing Community', 'name': 'Digital Marketing Community', 'description': 'Grow your digital marketing results faster through the power of growth hacking! In this industry-leading course, you’ll discover the extraordinary benefits of digital metrics, including lean analytics, web traffic, digital conversion funnels, and LTV and CAC calculations.', 'features': ['Course for pre launch business owners who have no idea where to get started', 'For starting a freelancing techniques in Marketing field'], 'learnings': ['From Scratch grow business online', 'Work from home as a Freelancer Marketer', 'Make money as an Affiliate Marketer'], 'requirements': ['No Experience required', 'Computer with Internet connectivity', 'Basic Programming understanding'], 'syllabus': {'Digital Marketing Class 1 - Introduction to Digital Marketing': ['Introduction Preview'], 'Digital Marketing Class 2 - Basics of Websites, Selecting Domain, and Activating Free Hosting': [], 'Digital Marketing Class 3 - Plugins and Integrations (Part - 1)': [], 'Digital Marketing Class 4 - Plugins and Integrations (Part - 2)': [], 'Digital Marketing Third Party Website Integrations Google and Bing': [], 'Digital Marketing - Market Research - With No Tools': [], 'Digital Marketing 6.2 - Market Research - No Tools': [], 'Digital Marketing Class 7.1 - Introduction to SEO and Basic Research': [], 'Digital Marketing Class 7.2 - Research With Free Tools - Google Trends': [], 'Digital Marketing 8 1 Free Tool': [], 'Digital Marketing Class 8.2 - Paid Tools': [], 'Digital Marketing Class 9.1 - Intro to Google Analytics': [], 'Digital Marketing Class 9.2 - All Tabs of Google Analytics': [], 'Digital Marketing Class 10.1 - Goals, Reports, Dashboard': [], 'Digital Marketing Class 10.2 - Search Console': [], 'Digital Marketing Class 11.1 - Website Optimization Tools': [], 'Digital Marketing Class 11.2 - Email Marketing': [], 'Digital Marketing Conclusion': []}, 'mentors': [{'name': 'Ankur Khanna', 'desc': 'Highly-motivated, energetic and dynamic Digital Marketing Mentor and Assistant Professor having 7+ years of experience in Digital Marketing Industry. Strong practical knowledge of different digital marketing tools aimed at meeting the needs of diverse groups of learners. ', 'social_links': ['https://linkedin.com/in/aankurkhanna', 'https://www.facebook.com/khanna.ankur', 'https://www.youtube.com/channel/UCzyrjUDzMpuwN1H53dq0TAQ']}]}
+2022-04-15 21:12:26,746 INFO 127.0.0.1 - - [15/Apr/2022 21:12:26] "GET / HTTP/1.1" 200 -
+2022-04-15 21:16:56,718 INFO  * Detected change in 'F:\\python project\\ineuronscrapper\\MyApp.py', reloading
+2022-04-15 21:16:57,370 INFO  * Restarting with stat
+2022-04-15 21:16:58,993 INFO connect mongodb with some insecurity
+2022-04-15 21:20:35,236 INFO connect mongodb with some insecurity
+2022-04-15 21:20:55,474 INFO Successfully connected with mongodb
+2022-04-15 21:20:55,474 INFO try to create db ineuron_data
+2022-04-15 21:20:55,474 INFO check db exist ineuron_data
+2022-04-15 21:20:56,244 INFO Already exist db ineuron_data
+2022-04-15 21:20:56,245 INFO try to connecting db ineuron_data
+2022-04-15 21:20:56,245 INFO check db exist ineuron_data
+2022-04-15 21:20:56,327 INFO Successfully connected with db ineuron_data
+2022-04-15 21:20:56,327 INFO try to create collection ineuron_collection
+2022-04-15 21:20:56,400 INFO list of collection ['ineuron_collection']
+2022-04-15 21:20:56,470 INFO avail this collection ineuron_collection
+2022-04-15 21:20:56,470 INFO Already exist collection ineuron_collection
+2022-04-15 21:20:56,470 INFO try to connect collection ineuron_collection
+2022-04-15 21:20:56,541 INFO list of collection ['ineuron_collection']
+2022-04-15 21:20:56,609 INFO avail this collection ineuron_collection
+2022-04-15 21:23:07,746 INFO connect mongodb with some insecurity
+2022-04-15 21:23:28,052 INFO Successfully connected with mongodb
+2022-04-15 21:23:28,053 INFO try to create db ineuron_data
+2022-04-15 21:23:28,053 INFO check db exist ineuron_data
+2022-04-15 21:23:28,824 INFO Already exist db ineuron_data
+2022-04-15 21:23:28,824 INFO try to connecting db ineuron_data
+2022-04-15 21:23:28,825 INFO check db exist ineuron_data
+2022-04-15 21:23:28,904 INFO Successfully connected with db ineuron_data
+2022-04-15 21:23:28,905 INFO try to create collection ineuron_collection
+2022-04-15 21:23:28,980 INFO list of collection ['ineuron_collection']
+2022-04-15 21:23:29,051 INFO avail this collection ineuron_collection
+2022-04-15 21:23:29,051 INFO Already exist collection ineuron_collection
+2022-04-15 21:23:29,051 INFO try to connect collection ineuron_collection
+2022-04-15 21:23:29,121 INFO list of collection ['ineuron_collection']
+2022-04-15 21:23:29,190 INFO avail this collection ineuron_collection
+2022-04-15 21:25:00,977 INFO connect mongodb with some insecurity
+2022-04-15 21:25:06,443 INFO connect mongodb with some insecurity
+2022-04-15 21:25:26,703 INFO Successfully connected with mongodb
+2022-04-15 21:25:26,704 INFO try to create db ineuron_data
+2022-04-15 21:25:26,704 INFO check db exist ineuron_data
+2022-04-15 21:25:27,455 INFO Already exist db ineuron_data
+2022-04-15 21:25:27,455 INFO try to connecting db ineuron_data
+2022-04-15 21:25:27,455 INFO check db exist ineuron_data
+2022-04-15 21:25:27,554 INFO Successfully connected with db ineuron_data
+2022-04-15 21:25:27,554 INFO try to create collection ineuron_collection
+2022-04-15 21:25:27,631 INFO list of collection ['ineuron_collection']
+2022-04-15 21:25:27,702 INFO avail this collection ineuron_collection
+2022-04-15 21:25:27,703 INFO Already exist collection ineuron_collection
+2022-04-15 21:25:27,703 INFO try to connect collection ineuron_collection
+2022-04-15 21:25:27,780 INFO list of collection ['ineuron_collection']
+2022-04-15 21:25:27,854 INFO avail this collection ineuron_collection
+2022-04-15 21:25:40,249 INFO connect mongodb with some insecurity
+2022-04-15 21:26:00,506 INFO Successfully connected with mongodb
+2022-04-15 21:26:00,506 INFO try to create db ineuron_data
+2022-04-15 21:26:00,506 INFO check db exist ineuron_data
+2022-04-15 21:26:01,195 INFO Already exist db ineuron_data
+2022-04-15 21:26:01,196 INFO try to connecting db ineuron_data
+2022-04-15 21:26:01,196 INFO check db exist ineuron_data
+2022-04-15 21:26:01,276 INFO Successfully connected with db ineuron_data
+2022-04-15 21:26:01,277 INFO try to create collection ineuron_collection
+2022-04-15 21:26:01,361 INFO list of collection ['ineuron_collection']
+2022-04-15 21:26:01,433 INFO avail this collection ineuron_collection
+2022-04-15 21:26:01,433 INFO Already exist collection ineuron_collection
+2022-04-15 21:26:01,433 INFO try to connect collection ineuron_collection
+2022-04-15 21:26:01,512 INFO list of collection ['ineuron_collection']
+2022-04-15 21:26:01,593 INFO avail this collection ineuron_collection
+2022-04-15 21:26:29,050 INFO connect mongodb with some insecurity
+2022-04-15 21:26:49,314 INFO Successfully connected with mongodb
+2022-04-15 21:26:49,314 INFO try to create db ineuron_data
+2022-04-15 21:26:49,314 INFO check db exist ineuron_data
+2022-04-15 21:26:50,091 INFO Already exist db ineuron_data
+2022-04-15 21:26:50,092 INFO try to connecting db ineuron_data
+2022-04-15 21:26:50,092 INFO check db exist ineuron_data
+2022-04-15 21:26:50,169 INFO Successfully connected with db ineuron_data
+2022-04-15 21:26:50,169 INFO try to create collection ineuron_collection
+2022-04-15 21:26:50,246 INFO list of collection ['ineuron_collection']
+2022-04-15 21:26:50,318 INFO avail this collection ineuron_collection
+2022-04-15 21:26:50,318 INFO Already exist collection ineuron_collection
+2022-04-15 21:26:50,318 INFO try to connect collection ineuron_collection
+2022-04-15 21:26:50,388 INFO list of collection ['ineuron_collection']
+2022-04-15 21:26:50,466 INFO avail this collection ineuron_collection
+2022-04-15 21:27:54,368 INFO connect mongodb with some insecurity
+2022-04-15 21:28:24,381 INFO connect mongodb with some insecurity
+2022-04-15 21:28:44,665 INFO Successfully connected with mongodb
+2022-04-15 21:28:44,665 INFO try to create db ineuron_data
+2022-04-15 21:28:44,665 INFO check db exist ineuron_data
+2022-04-15 21:28:45,419 INFO Successfully created db ineuron_data
+2022-04-15 21:28:45,420 INFO try to create collection ineuron_collection
+2022-04-15 21:28:45,492 INFO list of collection []
+2022-04-15 21:28:45,564 INFO not avail this collection ineuron_collection
+2022-04-15 21:28:45,564 INFO Successfully created collection ineuron_collection
+2022-04-15 21:28:45,564 INFO try to connect collection ineuron_collection
+2022-04-15 21:28:45,634 INFO list of collection []
+2022-04-15 21:28:45,704 INFO not avail this collection ineuron_collection
+2022-04-15 21:28:45,704 ERROR No collection exist with this name ineuron_collection
+2022-04-15 21:35:56,726 INFO connect mongodb with some insecurity
+2022-04-15 21:36:17,009 INFO Successfully connected with mongodb
+2022-04-15 21:36:17,009 INFO try to create db ineuron_data
+2022-04-15 21:36:17,010 INFO check db exist ineuron_data
+2022-04-15 21:36:17,804 INFO Already exist db ineuron_data
+2022-04-15 21:36:17,804 INFO try to connecting db ineuron_data
+2022-04-15 21:36:17,804 INFO check db exist ineuron_data
+2022-04-15 21:36:17,891 INFO Successfully connected with db ineuron_data
+2022-04-15 21:36:17,891 INFO try to create collection ineuron_collection
+2022-04-15 21:36:17,977 INFO list of collection ['ineuron_collection']
+2022-04-15 21:36:18,054 INFO avail this collection ineuron_collection
+2022-04-15 21:36:18,054 INFO Already exist collection ineuron_collection
+2022-04-15 21:36:18,054 INFO try to connect collection ineuron_collection
+2022-04-15 21:36:18,129 INFO list of collection ['ineuron_collection']
+2022-04-15 21:36:18,199 INFO avail this collection ineuron_collection

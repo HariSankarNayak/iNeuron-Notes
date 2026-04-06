@@ -1,0 +1,14 @@
+2022-02-01 22:06:24,131 ERROR System have more error
+2022-02-01 22:06:24,131 ERROR System have more error
+2022-02-01 22:06:24,131 ERROR Number of error available 6 
+Traceback (most recent call last):
+  File "customexception.py", line 22, in nooferrorhappen
+    raise(customexception("System  have more exception , count as  %s", self.nooferrormessage ))
+customexception: ('System  have more exception , count as  %s', 6)
+2022-02-01 22:40:27,238 ERROR System have more error
+2022-02-01 22:40:27,239 ERROR System have more error
+2022-02-01 22:40:27,239 ERROR Number of error available 6 
+Traceback (most recent call last):
+  File "customexception.py", line 22, in nooferrorhappen
+    raise(customexception("System  have more exception , count as  %s", self.nooferrormessage ))
+customexception: ('System  have more exception , count as  %s', 6)

@@ -1,0 +1,178 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Coursera Machine Learning {% endblock %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <div class="pcoded-content">
+        <div class="pcoded-inner-content">
+            <!-- [ breadcrumb ] start -->
+            <div class="page-header">
+                <div class="page-block">
+                    <div class="row align-items-center">
+                        <div class="col-md-12">
+                            <div class="page-header-title">
+                                <h5 class="m-b-10">Course Analysis</h5>
+                            </div>
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/"><i class="feather icon-home"></i></a></li>
+                                <li class="breadcrumb-item"><a href="javascript:">Analysis</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- [ breadcrumb ] end -->
+            <div class="main-body">
+                <div class="page-wrapper">
+                    <!-- [ Main Content ] start -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <div class="card-header theme-bg-header">
+                                    <h5> {{coursera_data["course-name"] }} </h5>
+                                </div>
+                                <div class="card-block">
+                                    <p>{{ coursera_data["course-description"] }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- [ Main Content ] end -->
+                </div>
+            </div>
+            <div class="page-wrapper">
+                <div class="row">
+                    <!--[ course rating section ] start-->
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card daily-sales">
+                            <div class="card-block">
+                                <h6 class="mb-4">Course Ratings</h6>
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-9">
+                                        <h3 class="f-w-300 d-flex align-items-center m-b-0">
+                                            <i class="feather icon-star text-c-green f-30 m-r-10"></i>
+                                            {{coursera_data["course-ratings"]}}
+                                        </h3>
+                                    </div>
+                                </div>
+<!--                                <div><hr class="progress-c-theme" size="6"></hr></div>-->
+                                <div class="m-t-30" style="height: 7px;">
+                                    <div class="progress-c-theme" role="progressbar" style="width: 50%;"
+                                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                        {{timestamp}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--[ course rating section ] end-->
+                    <!--[ course reviews section ] starts-->
+                    <div class="col-md-6 col-xl-4">
+                        <div class="card Monthly-sales">
+                            <div class="card-block">
+                                <h6 class="mb-4">Course Reviews</h6>
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-9">
+                                        <h3 class="f-w-300 d-flex align-items-center  m-b-0">
+                                            <i class="feather icon-sun text-c-red f-30 m-r-10"></i>
+                                            {{coursera_data["course-reviews-count"]}}
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="m-t-30" style="height: 7px;">
+                                    <div class="progress-c-theme" role="progressbar" style="width: 50%;"
+                                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                        {{timestamp}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--[ course reviews section ] end-->
+                    <!--[ course enrollments section ] starts-->
+                    <div class="col-md-12 col-xl-4">
+                        <div class="card yearly-sales">
+                            <div class="card-block">
+                                <h6 class="mb-4">Course Enrollments</h6>
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-9">
+                                        <h3 class="f-w-300 d-flex align-items-center  m-b-0">
+                                            <i class="feather icon-thumbs-up text-c-green f-30 m-r-10"></i>
+                                            {{coursera_data["course-enrollments-count"]}}
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="m-t-30" style="height: 7px;">
+                                    <div class="progress-c-theme" role="progressbar" style="width: 50%;"
+                                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                        {{timestamp}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--[ course enrollments section ] end-->
+                    <!--[ Course Syllabus ] start-->
+                    <div class="col-xl-8 col-md-6">
+                        <div class="card Recent-Users">
+                            <div class="card-header theme-bg-header">
+                                <h5>Course Syllabus</h5>
+                            </div>
+                            <div class="card-block px-0 py-3">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <tbody>
+                                        {% for syllabus in coursera_data["course-syllabus"] %}
+                                        <tr class="unread">
+                                            <td>
+                                                <h6 class="mb-1">{{syllabus}}</h6>
+                                            </td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--[ Course Syllabus ] end-->
+                </div>
+            </div>
+            <div class="row">
+                <!--[ Course Syllabus ] start-->
+                <div class="col-xl-12 col-md-6">
+                    <div class="card Recent-Users">
+                        <div class="card-header theme-bg-header">
+                            <h5>Course Reviews</h5>
+                        </div>
+                        <div class="card-block px-0 py-3">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <tbody>
+                                    {% for review in coursera_data["course-reviews"] %}
+                                    <tr class="unread">
+                                        <td>
+                                            {{review}}
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--[ Course Syllabus ] end-->
+            </div>
+        </div>
+    </div>
+
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

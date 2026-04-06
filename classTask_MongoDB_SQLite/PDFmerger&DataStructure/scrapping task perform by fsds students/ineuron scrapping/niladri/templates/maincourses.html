@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>iNeuron Main Courses</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+<div class="table-users">
+    <div class="header">Main Courses</div>
+
+    <table cellspacing="0">
+        <tr>
+            <th>Main Courses Offered by iNeuron</th>
+            <th>Sub Topic name and URL</th>
+            <!--<th width="230">Scrape Data</th>-->
+        </tr>
+        {% for mainCourse in mainCourses %}
+        <tr>
+            <td>{{mainCourse['courseName']}}</td>
+            <td>
+                <table cellspacing="0">
+                    {% for subTopic in mainCourse['subTopics'] %}
+                    <form action="/subtopics" method="POST">
+                        <tr>
+                            <td>
+                                <label>{{subTopic['subTopicName']}}</label>
+                                <input type="hidden" name="subTopicName" value="{{subTopic['subTopicName']}}">
+                            </td>
+                            <td>
+                                <a href="{{subTopic['subTopicURL']}}" name="subTopicURL">
+                                    {{subTopic['subTopicURL']}}
+                                </a>
+                                <input type="hidden" name="subTopicURL" value="{{subTopic['subTopicURL']}}">
+                            </td>
+                            <td><input type="submit" value="Scrape"></td>
+                        </tr>
+                    </form>
+                    {% endfor %}
+                </table>
+            </td>
+            {% endfor %}
+    </table>
+</div>
+
+
+</body>
+
+</html>

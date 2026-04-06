@@ -1,0 +1,25 @@
+#pd.read_csv('E:\\Downloads\\bank\\bank.csv' , sep=";")
+
+#1 . how many campaign available in this dataset . 
+len(df['campaign'].unique())
+
+#2 . how many users do we have with housing and personal loan . 
+df[(df['housing'].str.contains("yes")) & (df['loan'].str.contains("yes"))]
+
+#3. how many person do we have whose age is 60+ . 
+df[df['age']>60]
+
+#4 . in which month we have trageted most of the customer . 
+df.groupby(df['month']).size().sort_values(ascending=False).head(1)
+
+#5 . which mode of call is giving you more result
+df.groupby(df['contact']).size().sort_values(ascending=False).head(1)
+
+#6 . how many enterpeures do we have in this list  
+len(df.groupby(df['job']).get_group("entrepreneur"))
+
+#7 . how many customers do we have with negative balance 
+len(df[df['balance']<0])
+
+#8. prepare a group of data based on education level .
+df.groupby(df['education']).size()

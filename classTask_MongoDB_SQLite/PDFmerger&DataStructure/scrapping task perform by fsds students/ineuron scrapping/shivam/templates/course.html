@@ -1,0 +1,66 @@
+{% extends 'base.html' %} {% block head %}
+<title>{{course_data.Title}}</title>
+{% endblock %} {% block body %}
+<h1>{{course_data.Title}}</h1>
+<div class="course-container">
+	<div><span>Title:</span> {{course_data.Title}}</div>
+	<div><span>Job Guaranteed:</span> {{course_data["Job Guaranteed"]}}</div>
+	<div><span>Description:</span> {{course_data["Description"]}}</div>
+	<div>
+		<span>Pricing:</span> {{course_data["Pricing"]["IN"] or 0}} Rs. /
+		${{course_data["Pricing"]["US"] or 0}}
+	</div>
+	<div><span>Free:</span> {{course_data.Pricing.isFree}}</div>
+	<div><span>Instructors:</span> {{course_data.instructor}}</div>
+	<div><span>Language:</span> {{course_data.language}}</div>
+	<div>
+		<span>Learn:</span>
+		<div>
+			<ul class="course-list-container">
+				{% for learn in course_data.learn %}
+				<li>{{learn}}</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+	<div>
+		<span>Requirement:</span>
+		<div>
+			<ul class="course-list-container">
+				{% for requirement in course_data.requirements %}
+				<li>{{requirement}}</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+	<div>
+		<span>Features:</span>
+		<div>
+			<ul class="course-list-container">
+				{% for feature in course_data.features %}
+				<li>{{feature}}</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+	<div>
+		<span>Curriculum:</span>
+		<div>
+			<ol class="course-list-container">
+				{% for key in course_data.curriculum %}
+				<li class="curriculum-list">
+					<details>
+						<summary>{{key.title}}</summary>
+						<ol class="course-list-container">
+							{% for item in key["items"] %}
+							<li>{{ item.title }}</li>
+							{% endfor %}
+						</ol>
+					</details>
+				</li>
+				{% endfor %}
+			</ol>
+		</div>
+	</div>
+</div>
+{% endblock %}

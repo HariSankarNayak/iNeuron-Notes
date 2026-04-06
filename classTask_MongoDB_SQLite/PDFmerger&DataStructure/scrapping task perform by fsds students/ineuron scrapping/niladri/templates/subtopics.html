@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>iNeuron Sub Topic Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+<div class="table-users">
+    <div class="header">Sub Topic: {{subtopic.subTopicName}}</div>
+
+    <table cellspacing="0">
+        <tr>
+            <th>Course Name</th>
+            <th>Course URL</th>
+            <th>Action</th>
+        </tr>
+        {% for course in subtopic['subTopicCourses'] %}
+        <tr>
+            <form action="/courses" method="POST">
+                <td>
+                    <label>{{course.courseName}}</label>
+                    <input type="hidden" name="courseName" value="{{course.courseName}}">
+                </td>
+                <td>
+                    <label>{{course.courseURL}}</label>
+                    <input type="hidden" name="courseURL" value="{{course.courseURL}}">
+                </td>
+                <td>
+                    <input type="submit" value="Scrape">
+                </td>
+            </form>
+
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+
+</body>
+
+</html>

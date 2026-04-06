@@ -1,0 +1,100 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Tool Settings {% endblock %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <div class="pcoded-content">
+        <div class="pcoded-inner-content">
+            <div class="row">
+                <div class="col-12 col-xl-8">
+                    <div class="card card-body border-0 shadow mb-4">
+                        <h2 class="h5 mb-4">General information</h2>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div>
+                                        <label for="first_name">First Name</label>
+                                        <input class="form-control" id="first_name" type="text" placeholder="Enter your first name" value="{{ current_user.username }}" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div>
+                                        <label for="last_name">Last Name</label>
+                                        <input class="form-control" id="last_name" type="text" placeholder="Also your last name" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input class="form-control" id="email" type="email" placeholder="name@company.com" value="{{ current_user.email }}" readonly>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="phone">Phone</label>
+                                        <input class="form-control" id="phone" type="number" placeholder="+91 2345678910" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <button class="btn theme-bg mt-2 animate-up-2" type="submit">Save all</button>
+                            </div>
+                        </form>
+                    </div>
+<!--                    <div class="card card-body border-0 shadow mb-4 mb-xl-0">-->
+<!--                        <h2 class="h5 mb-4">Alerts & Notifications</h2>-->
+<!--                        <ul class="list-group list-group-flush">-->
+<!--                            <li class="list-group-item d-flex align-items-center justify-content-between px-0 border-bottom">-->
+<!--                                <div>-->
+<!--                                    <h3 class="h6 mb-1">Company News</h3>-->
+<!--                                    <p class="small pe-4">Get Rocket news, announcements, and product updates</p>-->
+<!--                                </div>-->
+<!--                                <div>-->
+<!--                                    <div class="form-check form-switch">-->
+<!--                                        <input class="form-check-input" type="checkbox" id="user-notification-1">-->
+<!--                                        <label class="form-check-label" for="user-notification-1"></label>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </li>-->
+<!--                            <li class="list-group-item d-flex align-items-center justify-content-between px-0 border-bottom">-->
+<!--                                <div>-->
+<!--                                    <h3 class="h6 mb-1">Account Activity</h3>-->
+<!--                                    <p class="small pe-4">Get important notifications about you or activity you've missed</p>-->
+<!--                                </div>-->
+<!--                                <div>-->
+<!--                                    <div class="form-check form-switch">-->
+<!--                                        <input class="form-check-input" type="checkbox" id="user-notification-2" checked>-->
+<!--                                        <label class="form-check-label" for="user-notification-2"></label>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </li>-->
+<!--                            <li class="list-group-item d-flex align-items-center justify-content-between px-0">-->
+<!--                                <div>-->
+<!--                                    <h3 class="h6 mb-1">Meetups Near You</h3>-->
+<!--                                    <p class="small pe-4">Get an email when a Dribbble Meetup is posted close to my location</p>-->
+<!--                                </div>-->
+<!--                                <div>-->
+<!--                                    <div class="form-check form-switch">-->
+<!--                                        <input class="form-check-input" type="checkbox" id="user-notification-3" checked>-->
+<!--                                        <label class="form-check-label" for="user-notification-3"></label>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

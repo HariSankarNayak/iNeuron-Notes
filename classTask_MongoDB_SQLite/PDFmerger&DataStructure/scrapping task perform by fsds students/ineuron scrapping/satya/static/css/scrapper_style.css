@@ -1,0 +1,153 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+}
+body{
+    background : #222;
+}
+.accordion{
+    margin-top: 20px;
+ }
+.accordion-tab > label{
+    color : #0c63e4;
+    font-size : 16px;
+    font-weight: bold;
+    background: #e7f1ff;;
+    position: relative;
+    display : block;
+    padding: 12px 20px;
+    cursor: pointer;
+    line-height: 24px;
+ }
+.accordion-tab > label:after{
+    content : "\f078";
+    font-family : fontawesome;
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    transform: rotate(90deg);
+    transition: transform .3s;
+}
+.accordion-tab > .accordion-toggle:checked ~ label:after{
+    transform: rotate(0deg);
+
+}
+.accordion-tab > .accordion-content{
+    max-height: 0;
+    transition: all 0.4s;
+    overflow: hidden;
+    background-color: white;
+}
+.accordion-tab > .accordion-content p{
+    padding:8px;
+    margin: 0;
+    font-size: 16px;
+}
+
+.accordion-tab .accordion-toggle{
+    display : none;
+}
+.accordion-tab > .accordion-toggle:checked ~ .accordion-content{
+    max-height : 100vh;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+ul {
+  list-style-type: none;
+ }
+.glyphicon-star:before {
+    content: "\e006";
+    margin-right: 5px;
+}
+.glyphicon-flag:before {
+    margin-right: 5px;
+}
+.glyphicon-calendar:before {
+    margin-right: 5px;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    /* margin-bottom: 20px; */
+}
+body{
+    margin: 0%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+a{
+    text-decoration : none;
+    font-family: 'Abel', sans-serif;
+
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav{
+    background: #222;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 7vh;
+    overflow: hidden;
+}
+.nav .nav-items{
+    display : flex;
+}
+.nav .nav-items .nav-link{
+    padding :1.6rem 1rem
+}
+.nav .nav-items .nav-link a{
+    font-size: 2.6rem;
+    text-decoration: none;
+}
+
+.nav .nav-brand a{
+    font-size: 2.6rem;
+    text-decoration: none;
+    display:block;
+    font-family: 'Abel', sans-serif;
+    color : #ff2d7e
+}
+.nav .nav-brand{
+        padding-left: 20px;
+        color:#ff2d7e;
+        display:flex;
+}
+.nav a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    font-weight: 600;
+    color : #ff2d7e
+}
+.nav .social{
+    padding: 1.4rem 0;
+}
+.nav .social a{
+    color : #ff2d7e
+}
+.label{
+    font-size: 51%;
+    border-radius: 0;
+    padding: 0.1em 0.6em 0.2em;
+}
+.nav .nav-items .backbtn {
+    background-color: #ff2d7e;
+    padding: 0px;
+    color: #000;
+    display: inline-block;
+    letter-spacing: 1px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}

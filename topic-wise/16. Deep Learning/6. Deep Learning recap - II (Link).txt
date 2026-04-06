@@ -1,0 +1,13 @@
+CNN & ANN Visualization Link :- https://adamharley.com/nn_vis/
+
+Jovian Notebook CNN :- https://jovian.com/paulbindass/convolutional-neural-network-world#C4
+
+CNN Explainer :- https://poloclub.github.io/cnn-explainer/
+
+
+Invariance in CNN :- https://stats.stackexchange.com/questions/208936/what-is-translation-invariance-in-computer-vision-and-convolutional-neural-netwo
+
+
+Kernels :- https://setosa.io/ev/image-kernels/
+
+Feature Visulaization :- https://distill.pub/2017/feature-visualization/

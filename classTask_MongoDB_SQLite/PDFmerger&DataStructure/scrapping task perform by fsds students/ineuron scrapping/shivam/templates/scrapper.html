@@ -1,0 +1,15 @@
+{% extends 'base.html' %} {% block head %}
+<title>Scrapper</title>
+{% endblock %} {% block body %}
+<ul class="scrapper-help">
+	<li>Enter Single Site URL to scrap single course.</li>
+	<li>Click <strong>scrap all courses</strong> to scrap all courses.</li>
+</ul>
+
+<form action="/scrap-one" method="post">
+	<label for="site-url">Site URL: </label>
+	<input id="site-url" type="url" required name="site" />
+	<button type="submit">SUBMIT</button>
+</form>
+<a href="/scrap-all" class="button">scrap all courses</a>
+{% endblock %}

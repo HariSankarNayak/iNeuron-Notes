@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+      <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+<body>
+
+  <div class="table-users">
+   <div class="header">Ineuron Courses Data</div>
+      <div style="overflow-x:auto; overflow-y:scroll;">
+          <table>
+              <tr>
+                 <th>Course Name</th>
+                 <th>Job Guarantee</th>
+                 <th>Description</th>
+                 <th>pricing</th>
+                  <th>requirements</th>
+                 <th>features</th>
+                 <th>learn</th>
+                 <th>curriculum_overview</th>
+                  <th>projects_overview</th>
+                 <th width="1000">Comments</th>
+              </tr>
+             {% for data in ineuron_data %}
+          <tr>
+              <td>{{data['title']}}</td>
+             <td>{{data['isJobGuaranteeProgram']}}</td>
+             <td>{{data['description']}}</td>
+             <td>{{data['pricing']}}</td>
+             <td>{{data['requirements']}} </td>
+              <td>{{data['features']}}</td>
+             <td>{{data['learn']}} </td>
+              <td>{{data['curriculum_overview']}}</td>
+             <td>{{data['projects_overview']}} </td>
+
+           {% endfor %}
+          </table>
+      </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

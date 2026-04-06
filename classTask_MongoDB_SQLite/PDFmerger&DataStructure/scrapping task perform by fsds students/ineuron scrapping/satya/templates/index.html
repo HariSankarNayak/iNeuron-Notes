@@ -1,0 +1,116 @@
+{% extends 'layout.html' %}
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='/css/main.css') }}">
+
+{% endblock %}
+
+{% block body %}
+
+<div class="container" >
+ <div class="box" id="scrap_tile">
+        <div class="content">
+            <h2 style = "margin-bottom:5px;"> iNeuron</h2>
+            <h2 style = "margin-bottom:5px;"> iNeuron</h2>
+        </div>
+             <div class="content">
+            <h2 style = "margin:5px;"> Scrapper</h2>
+            <h2 style = "margin:5px;"> Scrapper</h2>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="content">
+             <img src="static/images/data_science.png" ,width="100px", height="100px" >
+            <p>Data Science</p>
+            <form action="/scrap" method="POST">
+                <button  type="submit" name = "submit_button" id="source" value="Data-Science"><span>Scrap</span></button>
+            </form>
+        </div>
+    </div>
+    <div class="box">
+        <div class="content">
+             <img src="static/images/development.png" ,width="100px", height="100px" >
+            <p>Development</p>
+            <form action="/scrap" method="POST">
+                <button type="submit" name = "submit_button" value="Development">Scrap</button>
+            </form>
+        </div>
+    </div>
+    <div class="box">
+        <div class="content">
+             <img src="static/images/cloud.png" ,width="100px", height="100px">
+             <p>Cloud</p>
+             <form action="/scrap" method="POST">
+                  <button type="submit" name = "submit_button" value="Cloud">Scrap</button>
+             </form>
+
+        </div>
+    </div>
+    <div class="box">
+        <div class="content">
+             <img src="static/images/devops.png" ,width="100px", height="100px" >
+            <p>Devops</p>
+            <form action="/scrap" method="POST">
+                 <button type="submit" name = "submit_button" value="Devops">Scrap</button>
+            </form>
+
+        </div>
+    </div>
+     <div class="box">
+        <div class="content">
+             <img src="static/images/programming.png" ,width="100px", height="100px" >
+            <p>Programming</p>
+            <form action="/scrap" method="POST">
+                 <button type="submit" name = "submit_button" value="Programming">Scrap</button>
+            </form>
+        </div>
+    </div>
+    <div class="box">
+        <div class="content">
+             <img src="static/images/teaching.png" ,width="100px", height="100px" >
+            <p>Teaching</p>
+              <form action="/scrap" method="POST">
+                 <button type="submit" name = "submit_button" value="Teaching-&-Academics">Scrap</button>
+            </form>
+        </div>
+    </div>
+     <div class="box">
+        <div class="content">
+             <img src="static/images/marketing.png" ,width="100px", height="100px" >
+            <p>Marketing</p>
+            <form action="/scrap" method="POST">
+                 <button type="submit" name = "submit_button" value="Marketing">Scrap</button>
+            </form>
+        </div>
+    </div>
+     <div class="box">
+        <div class="content">
+             <img src="static/images/kids.png" ,width="100px", height="100px" >
+            <p>Kids</p>
+            <form action="/scrap" method="POST">
+                 <button type="submit" name = "submit_button" value="Kids">Scrap</button>
+            </form>
+        </div>
+    </div>
+       <div class="box">
+        <div class="content">
+             <img src="static/images/teamwork.png" ,width="100px", height="100px" >
+            <p>Community Courses</p>
+            <form action="/scrap" method="POST">
+                <button  type="submit" name = "submit_button" value="Community-Courses"><span>Scrap</span></button>
+            </form>
+        </div>
+    </div>
+    <div class="box">
+        <div class="content">
+             <img src="static/images/salesforce.png" ,width="100px", height="100px" >
+            <p>Salesforce</p>
+            <form action="/scrap" method="POST">
+                <button  type="submit" name = "submit_button"  value="Salesforce"><span>Scrap</span></button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
