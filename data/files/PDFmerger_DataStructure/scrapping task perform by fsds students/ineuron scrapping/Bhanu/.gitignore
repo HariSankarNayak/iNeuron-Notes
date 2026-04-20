@@ -1,5 +1,0 @@
-.idea
-apps/__pycache__/
-apps/authentication/__pycache__
-apps/home/__pycache__
-apps/db.sqlite3
